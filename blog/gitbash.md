@@ -24,6 +24,7 @@ git push -u origin master
 
 
 ## 使用多个git账号
++ ls -al ~/.ssh  检查本地现有SSH密钥
 + 创建公钥和密钥`ssh-keygen -t rsa -f test -C "test key"`创建公钥和密钥
 + $ ssh-agent bash
 	$  ssh-add ~/.ssh/test
@@ -36,7 +37,7 @@ Hi Benleie! You've successfully authenticated, but GitHub does not provide shell
 + git remote set-url origin
 + git push -u origin master
 
-查看gitconfig   git config --list
+查看git config   git config --list
 查看远程仓库信息  git remote show origin
 查看远程仓库 git remote -v
 
@@ -44,7 +45,7 @@ Hi Benleie! You've successfully authenticated, but GitHub does not provide shell
 + warning: LF will be replaced by CRLF in XXXXX.
 The file will have its original line endings in your working directory.
 
-+ 关于autocrlf。windows系统下，如果git add提交到stage的文件时unix格式，就有上面的提示。
++ 关于autocrlf  windows系统下，如果git add提交到stage的文件时unix格式，就有上面的提示。
 意思是core.autocrlf默认为true，提交到index后会自动转为lf endings，方便项目跨平台使用。
 + 权宜之计：为了git bash不被这种提示刷屏，可以将true改为false，反正只是在windows下自己玩。
 
