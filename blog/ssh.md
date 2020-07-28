@@ -24,6 +24,7 @@ Authentications that can continue: publickey
 Authentication succeeded (publickey).
 Authenticated to github.com ([192.30.255.113]:22).
 ```
+
 ## 疑问
 + awecg.com的库config信息显示有whu和qq两个邮箱，用 git clone git@搞下来,config信息就只有qq了。
 每次commit都会用用户名和邮箱纪录,github的contributions统计就是按邮箱来统计的。
