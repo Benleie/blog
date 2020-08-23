@@ -15,6 +15,7 @@ How browsers work--收到数据后，浏览器的处理
 
 将浏览器渲染结果输出于显示屏
 
++ URL解析，DNS查询，TCP连接，服务器处理请求，浏览器接受响应，渲染页面
 
 winter：而高手可以根据自己擅长的领域自由发挥，从URL规范、HTTP协议、DNS、CDN、到浏览器流式解析、CSS规则构建、layout、paint、onload/domready、JS执行、JS API绑定⋯⋯
 
