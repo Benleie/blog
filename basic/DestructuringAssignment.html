@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/babel-core/6.1.19/browser.min.js"></script> -->
+</head>
+<body>
+    <script type="text/babel">
+        let a, b, rest;
+        [a, b] = [10, 20]
+        console.log("a:" + a)
+        console.log("b:" + b)
+
+        [a, b, ...rest] = [10, 20, 30, 40, 50];
+        console.log(rest);
+    </script>
+</body>
+</html>

@@ -4,7 +4,19 @@ tags:
   - git
   - instruction
 banner: http://www.ruanyifeng.com/blogimg/asset/2015/bg2015120901.png
----
+---	
+
+## 命令集
+```
+git log --pretty=oneline -7 
+git reflog  # git reflog会记录所有HEAD的历史，也就是说reset，checkout等操作，都会记录在reflog中
+git reset --hard <commit> 
+```
+
+- `credential.helper=store`
+
+
+
 ### git clone指定分支
 git clone -b refactor https://github.com/maroslaw/rainyday.js.git stop
 
@@ -21,7 +33,12 @@ git push -u origin master
 ```
 另:git pull --rebase origin master(如果创建库时生成了README.md，即README.md不在本地文件目录)
 
-
+```
+git remote add origin https://github.com/Benleie/simpleLogin.git
+git branch -M master
+git push -u origin master
+```
+- 将HTTP方式改为SSH`git remote set-url origin <url>`
 
 ## 使用多个git账号
 + ls -al ~/.ssh  检查本地现有SSH密钥
@@ -40,6 +57,8 @@ Hi Benleie! You've successfully authenticated, but GitHub does not provide shell
 查看git config   git config --list
 查看远程仓库信息  git remote show origin
 查看远程仓库 git remote -v
+
+
 
 ## AUTOCRLF
 + warning: LF will be replaced by CRLF in XXXXX.
