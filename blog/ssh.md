@@ -3,7 +3,13 @@
 + $ ssh-agent bash
 	$  ssh-add ~/.ssh/test
 	Identity added: /c/Users/我/.ssh/test (/c/Users/我/.ssh/test)
-+ 配置ssh的config文件
+
+## 配置多个github用户
++ 配置ssh的config文件  ssh_config
++ ssh-keygen -t rsa -f id_rsa_awecg -C "github awecg"
++ ssh-agent -
++ ssh-add <id_rsa> 
++ ssh-add -l
 
 ```
 $ ssh -T git@github.com
