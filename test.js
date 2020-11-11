@@ -2,7 +2,16 @@
 
 
 */
-var arr = [1,2,3,4,4,2,2,6,9,1,0];
+
+console.log('toString' in {})
+console.log('PI' in Math)
+console.log(3 in ['a', 'b', 'c', 'd'])
+
+
+
+
+
+/* var arr = [1,2,3,4,4,2,2,6,9,1,0];
 var obj = {};
 arr.forEach((e,i)=>{ //把arr的信息统计到obj里面
     if(obj[e]===undefined){ //其实是利用对象属性是否存在做了一层遍历
@@ -14,7 +23,7 @@ arr.forEach((e,i)=>{ //把arr的信息统计到obj里面
 console.log(Object.keys(obj).map(key => +key))
 const res = new Map()
 console.log(arr.filter((a) => !res.has(a) && res.set(a, 1)))
-
+ */
 /*console.log("abcdefg")
 let str = "abcdefg"
 // console.log("abcdefg".indexOf('efgd'))
