@@ -2,8 +2,28 @@
 
 
 */
-const pattern = /^(((13|18)[0-9]{9})|(14[05679][0-9]{8})|(15[012356789][0-9]{8})|(16[2567][0-9]{8})|(17[01235678][0-9]{8})|(19[189][0-9]{8}))$/
-console.log(pattern.test('15071297655'))
+// const pattern = /^(((13|18)[0-9]{9})|(14[05679][0-9]{8})|(15[012356789][0-9]{8})|(16[2567][0-9]{8})|(17[01235678][0-9]{8})|(19[189][0-9]{8}))$/
+// console.log(pattern.test('15071297655'))
+
+//https://www.showmebug.com/pads/IABDEU
+
+/* let n = 55,
+		index = -1,
+		current = 1,
+		i = 1,
+		arr = []
+for(i; current <= n; i++){
+	arr.push(current)
+	current += i
+}
+if(n == current) index = i
+console.log(current)
+console.log(index)
+console.log(arr) */
+
+console.log([1] == '1')
+console.log(+0 === -0)
+
 
 
 
