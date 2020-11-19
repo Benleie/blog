@@ -23,9 +23,22 @@ console.log(arr) */
 
 console.log([1] == '1')
 console.log(+0 === -0)
+console.log(new Boolean(false) == false)
+console.log(new Boolean(false) == new Boolean(false))
 
 
+function counter() {
+  for (var count = 1; ; count++) {  // 无限循环
+    console.log(count + "A"); // 执行5次
+      if (count === 5) {          
+        return;
+      }
+      console.log(count + "B");  // 执行4次
+    }
+  console.log(count + "C");  // 永远不会执行
+}
 
+counter();
 
 
 
