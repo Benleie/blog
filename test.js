@@ -21,25 +21,46 @@ console.log(current)
 console.log(index)
 console.log(arr) */
 
-console.log([1] == '1')
-console.log(+0 === -0)
-console.log(new Boolean(false) == false)
-console.log(new Boolean(false) == new Boolean(false))
+// console.log([1] == '1')
+// console.log(+0 === -0)
+// console.log(new Boolean(false) == false)
+// console.log(new Boolean(false) == new Boolean(false))
+
+// const image = 'ba by.JPG'
+// console.log(image.match(/(\S*)\./))
+// console.log(new Date().getTime().toString().substring(7))
 
 
-function counter() {
-  for (var count = 1; ; count++) {  // 无限循环
-    console.log(count + "A"); // 执行5次
-      if (count === 5) {          
-        return;
-      }
-      console.log(count + "B");  // 执行4次
-    }
-  console.log(count + "C");  // 永远不会执行
+/* console.log('call stack')
+async function sss(){
+	
+	await setTimeout(() => {
+		console.log('setTimeout')
+	});
+	console.log('sss')
 }
+sss() */
 
-counter();
-
+async function async1() {
+	console.log("async1 start");
+	await  async2();
+	console.log("async1 end");
+}
+async  function async2() {
+	console.log( 'async2');
+}
+console.log("script start");
+setTimeout(function () {
+	console.log("settimeout");
+},0);
+async1();
+new Promise(function (resolve) {
+	console.log("promise1");
+	resolve();
+}).then(function () {
+	console.log("promise2");
+});
+console.log('script end');
 
 
 /* var arr = [1,2,3,4,4,2,2,6,9,1,0];
