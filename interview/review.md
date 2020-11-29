@@ -19,3 +19,4 @@
 	+ 适配 pxtorem onsize 具体实现
 + vue
 	+ 发请求 应该在哪个生命周期
+	+ computed 和 methods 区别
