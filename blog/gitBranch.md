@@ -27,6 +27,9 @@
 + git merge [branch]  创建新的提交，并把别的分支合并过来
 + git rebase [branch]  HEAD向前创建新的提交，把branch添加过去
 + git push <远程主机名> <本地分支名>  <远程分支名>
++ git remote add origin <url>
++ git remote remove origin
+
 
 ### 撤销变更
 + git reset

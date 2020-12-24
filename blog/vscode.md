@@ -9,7 +9,8 @@
 - GitLens 查看git提交信息
 + Vetur vue插件
 + Markdown Preview Enhanced
-+ Project Manager 多个项目切换 
++ Project Manager 多个项目切换
++ CSS Peek 从HTML跳转到CSS名
 
 CTRL + M        	跳过括号             
 ALT + 1     		聚焦于第一个编辑器组  
