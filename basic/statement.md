@@ -19,3 +19,8 @@
 + label语句 
   + 可以理解为js中的goto，但是只能配合continue或者break使用
   + 没有label时, continue break默认当前循环
+
++ for ... in
+  + 任意顺序遍历一个对象的 除Symbol以外的可枚举属性
+  + for ... in是为遍历对象属性而构建的，不建议与数组一起使用(数组关注顺序)，数组可以用Array.prototype.forEach()和for ... of
+  + 它最常用的地方应该是用于调试，可以更方便的去检查对象属性，比如需要检查其中的任何键是否为某值的情况时
