@@ -62,6 +62,9 @@ push.default
 + git init
 + git add .
 + git commit
+   + -m 表示可以直接输入后面的message，如果不加,会调用vim来让你输入这个message
+   + -a 将所有已跟踪文件中的执行修改或删除操作的文件都提交到本地仓库 省略git add
+   + --amend 修改最近一次提交记录
 + HEAD 默认指向当前分支上最近一次提交记录
 + git push <远程主机名> <本地分支名> <远程分支名>      
 + Changes not staged for commit:
