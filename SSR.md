@@ -3,15 +3,7 @@
 
 + https://www.elifulkerson.com/projects/tcping.php
 
-### 查看操作系统版本
-+ cat /etc/redhat-release   查看centos发行版
-+ cat /proc/version   查看linux内核版本
 
-+ firewall-cmd --state 查看防火墙状态
-+ firewall-cmd --zone=public --list-ports  查看开放端口
-
-+ firewall-cmd --add-port=35082/tcp --add-port=35082/udp --permanent
-+ 
 
 ## v2ray
 + [233boy的v2ray脚本](https://github.com/233boy/v2ray/tree/master)  
@@ -21,6 +13,9 @@
 + `wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh`
 + `wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh`
 
++ (Centos8使用BBR无需升级内核) 
+
++ cat /root/shadowsocks.txt
 + /etc/init.d/shadowsocks status
 + /etc/init.d/shadowsocks restart
 
