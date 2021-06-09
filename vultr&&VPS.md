@@ -1,5 +1,6 @@
 
 108.61.157.138 
+vps  流量bandwidth 每月限制
 
 vim /etc/ssh/sshd_config 
 service sshd restart

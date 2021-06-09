@@ -29,6 +29,7 @@
 
 ## 常见解决方式
 + /etc/init.d/shadowsocks restart    突然链接不到外网了
++ timeout
 
 ## 其他
 + 原版 ss，不用酸酸乳，不混淆。防火墙只指定自家 IP 访问，阻断 ICMP 请求。
