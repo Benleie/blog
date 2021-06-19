@@ -65,9 +65,50 @@ console.log(moduleA) */
 }
 console.log(new Date, i);
  */
-for(var i = 0; i < 5; i++) {
+/* for(var i = 0; i < 5; i++) {
     (function(j) { // j=i
         setTimeout(function(){console.log(new Date, j)}, 1000)
     })(i)
 }
-console.log(new Date, i)
+console.log(new Date, i) */
+
+
+// https://zhuanlan.zhihu.com/p/158430253
+// 静态的词法作用域
+var name = "A"
+function showName() {
+    console.log(name)
+}
+function changeName() {
+    var name = 'B'
+    showName()
+}
+changeName()
+
+/* for (let i = 0; i < 5; i++) { // not var
+    setTimeout(function() {
+        console.log(new Date, i);
+    }, 1000);
+}
+
+var arr = [];
+for (var i = 0; i < 10; i++) {
+    arr[i] = function () {
+        console.log(i);
+    };
+}
+arr[6]();  // 10
+ */
+
+
+/* // 变量提升
+var tmp = new Date();
+function f() {
+  console.log(tmp);
+  if(true) {
+    var tmp = 'hello world';
+  }
+}
+f(); */
+
+console.log(globalThis)

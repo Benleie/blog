@@ -21,7 +21,17 @@
 	+ 如果未使用g标志，则仅返回第一个完整匹配及其相关的捕获组`Array`  等同于`regexp.exec(str)`
 + str.replace(regexp) `'B123BabcB'.replace(/^B./g,'X')`
 
-
+## ES6
++ const Object.freeze()
++ 函数的拓展
+	+ 函数参数的默认值
+	```js
+	function log(x, y = 'World') {
+		console.log(x, y);
+	}
+	log('Hello') // Hello World
+	```
+	+ 尾递归优化
 
 
 

@@ -5,3 +5,4 @@
 	global.add = function(){ lovers++ }
 	global.minus = function(){ lovers-- }
 }()
+
