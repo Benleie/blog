@@ -7,7 +7,10 @@
   + 作用： 隐藏一些变量：在能被间接访问的情况下，防止被随意修改
 
 + call与apply
-  + 都是改变this
+  + 都是改变this的指向  `Array.prototype.slice.call(arguments).sort();`
+    + 普通函数 this指向函数运行时所在的对象 this可变
+    + 箭头函数的this就是定义时上层作用域中的this 固定的
+  + call 方法接受的是若干个参数列表，而 apply 接收的是一个包含多个参数的数组。
 
 + 异步 Promise
 

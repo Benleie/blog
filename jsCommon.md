@@ -22,7 +22,7 @@
 + str.replace(regexp) `'B123BabcB'.replace(/^B./g,'X')`
 
 ## ES6
-+ const Object.freeze()
++ const  Object.freeze()
 + 函数的拓展
 	+ 函数参数的默认值
 	```js

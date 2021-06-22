@@ -41,6 +41,7 @@ async function sss(){
 }
 sss() */
 
+/* 
 async function async1() {
 	console.log("async1 start");
 	await  async2();
@@ -60,7 +61,8 @@ new Promise(function (resolve) {
 }).then(function () {
 	console.log("promise2");
 });
-console.log('script end');
+console.log('script end'); 
+*/
 
 
 /* var arr = [1,2,3,4,4,2,2,6,9,1,0];
@@ -125,3 +127,71 @@ console.log('B123BabcB'.replace(/..B$/g,'X'))  //B123BaX
 */
 
 
+/*
+ */
+// https://juejin.cn/post/6844903496253177863#heading-0
+/* 
+var name = "windowsName";
+var a = {
+		name : 'Cherry',
+		// name: "Cherry",
+		fn : function () {
+				console.log(this.name);
+		}
+}
+
+a.fn()   // Cherry
+var f = a.fn;
+f();		// undefined
+
+ */
+/* 
+var name = "windowsName";
+function fn() {
+		var name = 'Cherry';
+		innerFunction();
+		function innerFunction() {
+				console.log(this.name);     
+		}
+}
+fn()    // undefined
+ */
+
+
+var name = "windowsName";
+var a = {
+		name: "Cherry",
+		func1() {
+				console.log(this.name)     
+		},
+		func2: function () {
+				// 定义生效是在func2函数生成时，但是真正执行是在100毫秒之后，执行时this指向全局对象window
+				setTimeout(function () {
+						this.func1()
+				},100);
+		},
+		func3: function() {
+			setTimeout(() => {
+				this.func1()
+			}, 100)
+		},
+		func4: function() {
+			let _this = this
+			setTimeout(function() {
+				_this.func1()
+			}, 100);
+		},
+		// Callback must be a function. Received undefined
+		funcCall: function() {
+			setTimeout(function() {
+				this.func1()
+			}.call(a), 100);
+		},
+		
+
+};
+
+// a.func2()     // this.func1 is not a function
+a.func3()      // Cherry
+a.func4();
+// a.func7()
