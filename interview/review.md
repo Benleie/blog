@@ -1,6 +1,19 @@
 
 ## 2021.06
-6
+### 
++ 判断数组有哪些方式
+  + `Object.prototype.toString.call()`通用的检测对象类型的方法 Array, Map, String, Number都可以检测
+  + isArray
+  + instanceof constructor
+
+
++ 基础数据类型 primitive data type
+  + null, undefined, boolean, string, number， object, symbol
+  + 一个symbol值能作为对象属性的标识符; 唯一标识符
+  + ES6之后，对于基本数据类型，不能使用new
+  + symbol属性不能被常规属性遍历获取到(for...in,keys(),getOwnPropertyNames()). 
+    + 需要用getOwnPropertySymbols()
+    + Reflect.ownKeys()
 ### 珠江智联
 + 事件循环 Event Loop  微任务与宏任务
 + promise捕获异常

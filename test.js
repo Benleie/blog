@@ -195,3 +195,13 @@ var a = {
 a.func3()      // Cherry
 a.func4();
 // a.func7()
+
+
+
+// 判断是不是一个数组
+// 判断对象类型
+let num = new Number(123)
+let num2 = 123
+console.log(Object.prototype.toString.call(num))
+console.log(num instanceof Number)
+// console.log(num.constructor)   // [Function: Number]
