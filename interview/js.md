@@ -23,6 +23,7 @@
   + var会变量提升，在声明之前即可访问undefined; 而let有暂时性死区，声明前使用会报错
   + let不允许重复声明
   + var声明的全局变量，作为顶层对象的属性，如浏览器的window,node的global；let则不然
++ Reflect和Proxy
 
 
 

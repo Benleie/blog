@@ -1,5 +1,13 @@
 
 ## 2021.06
+### 欢聚时代
++ HTTPS为啥更安全
++ vue双向绑定原理 数据监听原理
++ Map的特点和作用 WeakMap
++ Promise实现原理
++ Math.random  [1, 1.5]
++ 排列问题 [60. 排列序列](https://leetcode-cn.com/problems/permutation-sequence/)
+
 ### 
 + 判断数组有哪些方式
   + `Object.prototype.toString.call()`通用的检测对象类型的方法 Array, Map, String, Number都可以检测
