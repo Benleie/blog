@@ -1,8 +1,9 @@
 
 ## 2021.06
-### 欢聚时代
+### 欢聚
 + HTTPS为啥更安全
 + vue双向绑定原理 数据监听原理
++ vue-router hash与history模式的区别
 + Map的特点和作用 WeakMap
 + Promise实现原理
 + Math.random  [1, 1.5]
@@ -14,7 +15,6 @@
   + isArray
   + instanceof constructor
 
-
 + 基础数据类型 primitive data type
   + null, undefined, boolean, string, number， object, symbol
   + 一个symbol值能作为对象属性的标识符; 唯一标识符
@@ -22,6 +22,8 @@
   + symbol属性不能被常规属性遍历获取到(for...in,keys(),getOwnPropertyNames()). 
     + 需要用getOwnPropertySymbols()
     + Reflect.ownKeys()
+
+    
 ### 珠江智联
 + 事件循环 Event Loop  微任务与宏任务
 + promise捕获异常

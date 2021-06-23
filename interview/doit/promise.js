@@ -93,7 +93,7 @@ setTimeout(() => {
 }, 0)
 console.log('start')
 
-
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
 
 setTimeout(() => {
   console.log('timer1');
@@ -106,11 +106,42 @@ setTimeout(() => {
 }, 0)
 console.log('start')
 // start -- timer1 -- promise -- timer2
+
+
+setTimeout(() => {
+  console.log('timer1');
+  Promise.resolve().then(() => {
+    console.log('promise')
+  })
+  console.log('timer1 end')
+}, 0)
+setTimeout(() => {
+  console.log('timer2')
+}, 0)
+console.log('start')
+
+// timer1  ---  timer1 end --- promise -- timer2
+
+Promise.resolve().then(() => {
+  console.log('promise1');
+  const timer2 = setTimeout(() => {
+    console.log('timer2')
+  }, 0)
+});
+const timer1 = setTimeout(() => {
+  console.log('timer1')
+  Promise.resolve().then(() => {
+    console.log('promise2')
+  })
+}, 0)
+console.log('start');
+// start -- promise1 -- timer1 -- promise2 -- timer2
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+
 */
 
-let arr = [1,1,2,3,2,4]
-let set = new Set(arr)
-console.log(set)
-console.log([...set])
-console.log(Array.from(set))
+
+
+
 
