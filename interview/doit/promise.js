@@ -340,14 +340,6 @@ promise2()
   .finally(() => console.log('finally2'))
 // promise1 --- 1 ---  error  --- finally1 --- finally2
 
-
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
-
-
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
-
-*/
-
 function promise1 () {
   return new Promise((resolve) => {
     console.log('promise1');
@@ -370,6 +362,10 @@ promise2()
   .catch(err => console.log(err))
   .then(() => console.log('finally2'))
 
+*/
+
+
+
 
 
 
@@ -379,7 +375,120 @@ promise2()
 
 // 4.--------------------------------------------------------------------------------------- //
 
+/* 
+// all && race
+function runAsync (x) {
+  const p = new Promise(r => setTimeout(() => r(x, console.log(x)), 1000))
+  return p
+}
+function run2(x) {
+  return new Promise(r => {
+    console.log(x)
+  })
+}
+runAsync(2)   // 2
+run2(3)
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+function runAsync (x) {
+  const p = new Promise((r1, r2) => setTimeout(() => r1(x, console.log(x)), 1000))
+  return p
+}
+Promise.all([runAsync(1), runAsync(2), runAsync(3)])
+// 所有Promise都被fulfilled之后，各Promise的返回值组成数组，将其传给then
+.then(res => console.log(res))               
+.catch(res => console.log('catch: ', res))   // 有一个被rejected，则返回该值
+
+
+
+
+
+
+
+
+function runAsync (x) {
+  const p = new Promise((r1, r2) => setTimeout(() => r1(x, console.log(x)), 1000))
+  return p
+}
+Promise.all([runAsync(1), runAsync(4), runAsync(3)])
+.then(res => console.log(res))              // [1,4,3] 
+.catch(res => console.log('catch: ', res))  
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+function runAsync (x) {
+  const p = new Promise(r => setTimeout(() => r(x, console.log(x)), 1000))
+  return p
+}
+function runReject (x) {
+  const p = new Promise((res, rej) => setTimeout(() => rej(`Error: ${x}`, console.log(x)), 1000 * x))
+  return p
+}
+Promise.all([runAsync(1), runReject(4), runAsync(3), runReject(2)])
+  .then(res => console.log(res))
+  .catch(err => console.log(err))
+
+
+
+function runAsync (x) {
+  const p = new Promise(r => setTimeout(() => r(x, console.log(x)), 1000 * x))
+  return p
+}
+function runReject (x) {
+  const p = new Promise((res, rej) => setTimeout(() => rej(`Error: ${x}`, console.log(x)), 1000 * x))
+  return p
+}
+Promise.all([runAsync(1), runReject(4), runAsync(3), runReject(2)])
+  .then(res => console.log(res))
+  .catch(err => console.log(err))
+//  1 --- 2 --- Error:2 --- 3 --- 4
+
+
+
+function runAsync (x) {
+  const p = new Promise(r => setTimeout(() => r(x, console.log(x)), 1000 * x))
+  return p
+}
+Promise.race([runAsync(1), runAsync(3), runAsync(1.5)])
+  .then(res => console.log('result: ', res))
+  .catch(err => console.log(err))
+// 1  --- result:1  --- 1.5  --- 3
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+function runAsync(x) {
+  const p = new Promise(r =>
+    setTimeout(() => r(x, console.log(x)), 1000)
+  );
+  return p;
+}
+function runReject(x) {
+  const p = new Promise((res, rej) =>
+    setTimeout(() => rej(`Error: ${x}`, console.log(x)), 1000 * x)
+  );
+  return p;
+}
+Promise.race([runReject(0), runAsync(1), runAsync(2), runAsync(3)])
+  .then(res => console.log("result: ", res))
+  .catch(err => console.log(err));
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+ */
+
+
+
+function runAsync (x) {
+  const p = new Promise((r1, r2) => setTimeout(() => r1(x, console.log(x)), 1000 * x))
+  return p
+}
+Promise.all([runAsync(1), runAsync(4), runAsync(3)])
+.then(res => console.log(res))              // [1,4,3] 
+.catch(res => console.log('catch: ', res))  
 
 
 
