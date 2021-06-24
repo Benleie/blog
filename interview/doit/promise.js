@@ -473,22 +473,72 @@ Promise.race([runReject(0), runAsync(1), runAsync(2), runAsync(3)])
   .then(res => console.log("result: ", res))
   .catch(err => console.log(err));
 
+
+
+  async function async1() {
+  console.log("async1 start");
+  await async2();
+  console.log("async1 end");
+  // new Promise(res => {
+  //   console.log('async2')
+  //   res()
+  // }).then(() => console.log("async1 end"))
+}
+async function async2() {
+  console.log("async2");
+}
+async1();
+console.log('start')
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+async function async1() {
+  console.log("async1 start");
+  await async2();
+  console.log("async1 end");
+  setTimeout(() => {
+    console.log('timer1')
+  }, 0)
+}
+async function async2() {
+  setTimeout(() => {
+    console.log('timer2')
+  }, 0)
+  console.log("async2");
+}
+async1();
+setTimeout(() => {
+  console.log('timer3')
+}, 0)
+console.log("start")
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
+
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
 
  */
 
-
-
-function runAsync (x) {
-  const p = new Promise((r1, r2) => setTimeout(() => r1(x, console.log(x)), 1000 * x))
-  return p
+async function fn () {
+  return await 1234
+  // 等同于
+  return 123
 }
-Promise.all([runAsync(1), runAsync(4), runAsync(3)])
-.then(res => console.log(res))              // [1,4,3] 
-.catch(res => console.log('catch: ', res))  
+fn().then(res => console.log(res))
+
+
+
 
 
 

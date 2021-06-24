@@ -23,7 +23,22 @@
     + 需要用getOwnPropertySymbols()
     + Reflect.ownKeys()
 
-    
++ CSS可以被继承的属性
++ CSS 垂直居中
++ 子DIV宽高不固定 如何做垂直居中
++ 盒子模型
++ CSS 重绘和回流
++ 不同浏览器标签页之间的通信方式
++ vue2 Object.defineProperty() 缺陷
++ v-for key的作用
++ 组件之间通信方式 兄弟组件？
++ DOM更新后触发 nextTick实现原理
++ Symbol的应用场景
++ 值类型与引用类型 堆与栈 const为啥可以改变对象属性
++ 父子组件的生命周期
++ 箭头函数与普通函数的区别
+
+
 ### 珠江智联
 + 事件循环 Event Loop  微任务与宏任务
 + promise捕获异常
