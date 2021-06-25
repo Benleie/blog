@@ -511,6 +511,13 @@ setTimeout(() => {
 }, 0)
 console.log("start")
 
+
+async function fn () {
+  return await 1234
+  // 等同于
+  return 123
+}
+fn().then(res => console.log(res))
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ //
 
 
@@ -530,14 +537,20 @@ console.log("start")
 
  */
 
-async function fn () {
-  return await 1234
-  // 等同于
-  return 123
+
+
+
+async function async1 () {
+  console.log('async1 start');
+  await new Promise(resolve => {
+    console.log('promise1')
+  })
+  console.log('async1 success');
+  return 'async1 end'
 }
-fn().then(res => console.log(res))
-
-
+console.log('srcipt start')
+async1().then(res => console.log(res))
+console.log('srcipt end')
 
 
 
