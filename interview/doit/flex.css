@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+section {
+  background-color: beige;
+}
+.main {
+  display: flex;
+}
+.main > :first-child {
+  width: 200px;
+  flex: 1;
+  background-color: coral;
+}
+/* .main > :not(.adapt) {
+  width: 200px;
+  background-color: coral;
+} */
+.main .adapt {
+  flex: 2;
+  background-color: green;
+}
