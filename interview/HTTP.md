@@ -20,3 +20,9 @@
 + 403 Forbidden	服务器理解请求客户端的请求，但是拒绝执行此请求
 + 404 
 + 408 Request Time-out
+
++ HTTPS = HTTP + SSL协议 443
+
+## HTTP缓存
++ expires HTTP 1.0
++ 

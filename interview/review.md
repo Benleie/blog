@@ -9,6 +9,10 @@
 + Math.random  [1, 1.5]
 + 排列问题 [60. 排列序列](https://leetcode-cn.com/problems/permutation-sequence/)
 
+
++ element表单切换后数据清空？
++ v-for key值不推荐用index的原因？
+
 ### 
 + 判断数组有哪些方式
   + `Object.prototype.toString.call()`通用的检测对象类型的方法 Array, Map, String, Number都可以检测
