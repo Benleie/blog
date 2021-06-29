@@ -32,6 +32,17 @@
 + Reflect和Proxy
 
 
+## 引用类型
+```js
+let stack = [1,2,3]
+let arr3 = []
+arr3.push(stack)
+arr3.push(stack.slice(0))
+stack.push(4)
+console.log(arr3)         [[1,2,3,4], [1,2,3]]
+```
+
+
 
 
 
