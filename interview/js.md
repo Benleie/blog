@@ -38,6 +38,23 @@
   + for in 与Object.keys()不能捕获到不可枚举属性
   + Object.getOwnPropertyNames()  Reflect.ownKeys()
 
+## primitive
++ String
+  + 基本字符串值 与 字符串对象
+    + 基本字符串值需要调用字符串对象的方法时，JS会自动转换
+    + eval会产生不同结果
+    + eval的参数不是字符串， eval会将参数原封不动地返回。
+  ```js
+  let str1 = String('0')
+  let str2 = '0'
+  let str3 = new String('0')
+  log(str1 === str2)
+  log(str3 === str1)    // false
+  log(str3.valueOf() === str1)
+  log(str3.toString() === str1)
+  log(str3 == str1)
+  ```
+
 ## 引用类型
 ```js
 let stack = [1,2,3]

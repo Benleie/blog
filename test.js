@@ -202,6 +202,9 @@ a.func4();
 // 判断对象类型
 let num = new Number(123)
 let num2 = 123
-console.log(Object.prototype.toString.call(num))
-console.log(num instanceof Number)
+// console.log(Object.prototype.toString.call(num))
+// console.log(num instanceof Number)
 // console.log(num.constructor)   // [Function: Number]
+
+
+	
