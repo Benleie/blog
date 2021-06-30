@@ -109,6 +109,14 @@ function f() {
     var tmp = 'hello world';
   }
 }
-f(); */
+f(); 
+
+
+if(!('c' in window)) {
+   var c = 100
+   };
+console.log(c)  // undefined
+
+*/
 
 console.log(globalThis)

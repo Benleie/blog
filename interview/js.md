@@ -32,6 +32,12 @@
 + Reflect和Proxy
 
 
+## Object与Reflect
++ 不可枚举
+  + 默认true 可以通过Object.defineProperty() 设置enumetable属性
+  + for in 与Object.keys()不能捕获到不可枚举属性
+  + Object.getOwnPropertyNames()  Reflect.ownKeys()
+
 ## 引用类型
 ```js
 let stack = [1,2,3]
