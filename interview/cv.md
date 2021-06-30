@@ -1,3 +1,12 @@
+## 备战大厂
++ 大厂信息
+  + 广州的：腾讯 阿里 头条 欢聚时代 CVTE --- 网易 电信云 小鹏汽车 广发证券 金山办公  --- 虎牙 酷狗 唯品会  BIGO 荔枝FM
+  + 算法刷满 + 项目技术栈牛逼 + 精确而优雅的八股文
++ leetcode刷题500
++ element、antd源码级理解 [阅读源码建议](https://www.zhihu.com/question/350289336/answer/873350617)
++ 结合lodash/underscore, axios, redux与immutable.js，学习JS基础
+
+
 
 打磨简历内容
 
