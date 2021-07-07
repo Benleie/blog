@@ -158,6 +158,9 @@ fn()    // undefined
  */
 
 
+
+
+/* 
 var name = "windowsName";
 var a = {
 		name: "Cherry",
@@ -187,14 +190,14 @@ var a = {
 				this.func1()
 			}.call(a), 100);
 		},
-		
-
 };
-
+ 
 // a.func2()     // this.func1 is not a function
 a.func3()      // Cherry
 a.func4();
 // a.func7()
+
+*/
 
 
 
@@ -207,4 +210,18 @@ let num2 = 123
 // console.log(num.constructor)   // [Function: Number]
 
 
-	
+/**
+ * @param {number[]} guess
+ * @param {number[]} answer
+ * @return {number}
+ */
+var game = function(guess, answer) {
+	let count = 0
+	for(let i = 0; i < guess.length; i++) {
+		if(guess[i] === answer[i]) count++
+	}
+	return count	
+};
+console.log(game([1,1,2], [1,3,2]))
+console.log(game([1,3,2], [1,3,2]))
+// 李奔

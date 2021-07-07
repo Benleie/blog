@@ -3,8 +3,18 @@
   + 广州的：腾讯 阿里 头条 欢聚时代 CVTE --- 网易 电信云 小鹏汽车 广发证券 金山办公  --- 虎牙 酷狗 唯品会  BIGO 荔枝FM
   + 算法刷满 + 项目技术栈牛逼 + 精确而优雅的八股文
 + leetcode刷题500
++ 结合各种面经和问题，学习JS及三大框架基础
 + element、antd源码级理解 [阅读源码建议](https://www.zhihu.com/question/350289336/answer/873350617)
-+ 结合lodash/underscore, axios, redux与immutable.js，学习JS基础
++ 熟练使用lodash/underscore, moment.js, axios, redux与immutable.js等常用工具库的常用功能
+  + 但不要试图去读源码 太浪费精力 
+
+### 后端方面
++ mysql 原生node去连接mysql
++ egg/express/koa 文档级理解
+  + egg examples挺好，多去看看
++ token认证功能
++ websocket用起来
++ BFF的应用 backend for frontend
 
 
 
@@ -34,4 +44,6 @@
 
 ## 模仿网易云Web端(使用官方API)
 + 2020.11
+
+
 
