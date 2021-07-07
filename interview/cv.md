@@ -4,6 +4,7 @@
   + 算法刷满 + 项目技术栈牛逼 + 精确而优雅的八股文
 + leetcode刷题500
 + 结合各种面经和问题，学习JS及三大框架基础
++ 结合API开发网易云应用, 用到各种UI框架以及React Native
 + element、antd源码级理解 [阅读源码建议](https://www.zhihu.com/question/350289336/answer/873350617)
 + 熟练使用lodash/underscore, moment.js, axios, redux与immutable.js等常用工具库的常用功能
   + 但不要试图去读源码 太浪费精力
@@ -43,8 +44,9 @@
 + 2019.03-2019.12
 + Uni-app
 
-## 模仿网易云Web端(使用官方API)
-+ 2020.11
+
+## zhikun
+
 
 
 
