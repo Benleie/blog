@@ -6,14 +6,15 @@
 + 结合各种面经和问题，学习JS及三大框架基础
 + element、antd源码级理解 [阅读源码建议](https://www.zhihu.com/question/350289336/answer/873350617)
 + 熟练使用lodash/underscore, moment.js, axios, redux与immutable.js等常用工具库的常用功能
-  + 但不要试图去读源码 太浪费精力 
+  + 但不要试图去读源码 太浪费精力
 
-### 后端方面
-+ mysql 原生node去连接mysql
+### 后端方面想法
++ mysql 原生node去连接mysql 结合CS-Notes中的`sql练习`去学习
 + egg/express/koa 文档级理解
   + egg examples挺好，多去看看
 + token认证功能
 + websocket用起来
++ swagger应用在egg中 swagger-editor
 + BFF的应用 backend for frontend
 
 
