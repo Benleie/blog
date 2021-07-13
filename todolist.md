@@ -6,6 +6,9 @@
 + [ ] 梳理zhikun工作用到的技术
   + 印象深刻的技术难点
   + vant写三个页面
+  + 激活webstorm
+ 
++ todomvc-vue
 + [ ] 一个.vue文件梳理vue官方教材的例子
 
 
