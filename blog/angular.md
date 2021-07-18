@@ -1,9 +1,13 @@
-## 
+## todolist
++ [ ] ngx-admin/layout/list 后面添加一个相同的组件
 
 ## 可以利用的学习资源
 + [中文开发 Material 2](https://github.com/stbui/angular-material-app)
 + [angualr-admin 22k](https://github.com/akveo/ngx-admin)
 + []()
+
+## 基础
++ 路由与导航
 
 
 ## ngx-admin
