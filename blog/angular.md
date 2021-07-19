@@ -14,3 +14,4 @@
 + 项目运行成功 依然报的两个错
 	+ tsconfig.json  Argument for '--module' option must be: 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'esnext'.
 	+ app-routing.module.ts  Dynamic imports are only supported when the '--module' flag is set to 'esnext', 'commonjs',  'amd', 'system', or 'umd'.
++ 用npm7 install了一次，各种报错
