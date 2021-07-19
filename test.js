@@ -225,11 +225,14 @@ var game = function(guess, answer) {
 // console.log(game([1,1,2], [1,3,2]))
 // console.log(game([1,3,2], [1,3,2]))
 // 李奔
-var loop1 = function() {
+
+
+
+/* var loop1 = function() {
 	while(true) {}
 }
 var loop2 = () => {
 	for(let i = 0; i < 3; i++) {}
 }
 // loop1()
-console.log('sss')
+console.log('sss') */

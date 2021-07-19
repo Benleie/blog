@@ -7,8 +7,11 @@
 + es6: 学习es6语法及特点
 + css： 整理html与css
 + http：http及server知识
++ db: mysql，mongodb， indexedDb等数据库
 + browser: 前端其他内容
 + vue
++ react
++ angular
 + node：整理webpack等node工具
 + doc: 整理博客
 + review：整理面试题
