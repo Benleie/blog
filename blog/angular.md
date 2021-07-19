@@ -10,7 +10,11 @@
 + 路由与导航
 + 模板
 	+ 插值与属性绑定
-+ 依赖注入
+	+ 指令
++ 依赖注入 providers选项
++ ng generate
+	+ component
+	+ directive
 
 
 ## ngx-admin
@@ -34,6 +38,8 @@
 		}
 		```
 		+ 调用泛型时  类型推断
+	+ 高级类型
+		+ Union联合类型 |
 + 类与继承
 	+ 实例成员默认public 区别于private和protected
 	+ extends super
