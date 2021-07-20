@@ -8,6 +8,12 @@
 + []()
 
 ## 基础
++ Angular概念
+	+ 架构概览
+		+ @NgModule 为组件提供编译的上下文
+		+ 组件定义视图 @Component
+		+ 组件使用服务 @Injectable
+		+ 装饰器为模块、组件和服务提供元数据
 + 路由与导航
 + 模板
 	+ 插值与属性绑定
@@ -16,6 +22,8 @@
 + ng generate
 	+ component
 	+ directive
++ 组件
+
 
 
 ## ngx-admin
