@@ -19,6 +19,9 @@ git reset --hard <commit>
 
 ### git clone指定分支
 git clone -b refactor https://github.com/maroslaw/rainyday.js.git stop
++ git clone --depth=1
+  + 修改set-url之后，push失败   `shallow update not allowed`
+  + git fetch --unshallow akveo
 
 ### 创建一个新库，很简单。
 在官网new repo,然后github在你没有readme的时候会有提示页面，照做就行。

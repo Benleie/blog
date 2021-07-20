@@ -13,6 +13,7 @@
 + react
 + angular
 + node：整理webpack等node工具
++ git
 + doc: 整理博客
 + review：整理面试题
 + todo: 整理待办事项

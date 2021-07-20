@@ -1,6 +1,6 @@
 ## todolist
-+ [ ] ngx-admin/layout/list 后面添加一个相同的组件
-+ [ ] 自定义dialog，在list中点击引入
++ 自定义dialog，在list中点击引入
+- pipe news.service.ts
 
 ## 可以利用的学习资源
 + [中文开发 Material 2](https://github.com/stbui/angular-material-app)
@@ -22,6 +22,8 @@
 + ng generate
 	+ component
 	+ directive
+	+ module
+	+ service
 + 组件
 
 
