@@ -12,5 +12,6 @@ SHOW DATABASES LIKE '%test%';   like从句
 	SELECT * from runoob_tbl WHERE BINARY runoob_author='runoob.com';    where子句
 	UPDATE table_name SET field1=new-value1, field2=new-value2
 	DELETE FROM table_name [WHERE Clause]
+limit 偏移量,条数  可以用来分页
 
 

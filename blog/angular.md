@@ -1,6 +1,7 @@
 ## todolist
 + 自定义dialog，在list中点击引入
 - pipe news.service.ts
++ 关闭husky
 
 ## 可以利用的学习资源
 + [中文开发 Material 2](https://github.com/stbui/angular-material-app)
