@@ -1,6 +1,7 @@
 ## todolist
 + 自定义dialog，在list中点击引入
 - pipe news.service.ts
++ 关闭husky
 
 
 ## rxjs
