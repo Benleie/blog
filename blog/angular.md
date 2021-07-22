@@ -2,6 +2,20 @@
 + 自定义dialog，在list中点击引入
 - pipe news.service.ts
 
+
+## rxjs
++ angular的httpClient中的每个请求方法都会构建一个Observable,被订阅时，执行请求
+	+ 类似于rxjs中的from
++ Observablest
+	+ Creating, Subscribing, Executing, Disposing
+	+ subscribe()
+	+ pipe()
++ Observer
+	+ 三个partial callback -- next error complete
+	+ 可以只传next `observable.subscribe(x => console.log('Observer got a next value: ' + x));` 
++ operators
+	+ Pipeable Operators `observableInstance.pipe(operator())`
+
 ## 可以利用的学习资源
 + [中文开发 Material 2](https://github.com/stbui/angular-material-app)
 + [angualr-admin 22k](https://github.com/akveo/ngx-admin)

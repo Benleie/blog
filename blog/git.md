@@ -12,6 +12,7 @@ git log --pretty=oneline -7
 git reflog  # git reflog会记录所有HEAD的历史，也就是说reset，checkout等操作，都会记录在reflog中
 git reset --hard <commit> 
 ```
++ .git/hooks中有很多钩子，如prepush 可以通过删除package.json中的prepush等来关闭husky
 
 - `credential.helper=store`
 
