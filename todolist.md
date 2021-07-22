@@ -1,13 +1,14 @@
-## 前进！前进！不择手段地前进！
-+ 面向工资编程，针对面试学习
 
 
 ## 07
++ 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
++ button -> fetch -> egg.js -> mysql
+
 + [ ] 梳理zhikun工作用到的技术
   + 印象深刻的技术难点
   + vant写三个页面
-  + 激活webstorm
- 
+
+
 + todomvc-vue
 + [ ] 一个.vue文件梳理vue官方教材的例子
 
@@ -19,3 +20,7 @@
 
 ## Node server
 + N-blog项目 启动与整理
+
+
+## done
++ 自己电脑连接公司VPN和gitlab
