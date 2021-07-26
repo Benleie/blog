@@ -3,13 +3,14 @@
 + sequelize ORM工具
 + egg-mysql  ali-rds
 + 
+
 ```
 npm list @angular/core
 npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codemirror@1.1.3
 ```
 
 ## 07
-
++ Date()转成`YYYY-MM-DD HH:MM:SS`格式的timestamp
 + 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
 + http获取本地json,设置筛选框form查找表格
 
