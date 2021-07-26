@@ -9,7 +9,7 @@
 	+ set `primary key`
 + ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value
 	+ TIMESTAMP 一种时间类型
-+ 
++ ER_TRUNCATED_WRONG_VALUE: Incorrect datetime value: '2021-07-26 12:07:60' for column 'time' at row 1
 
 ## 基础的查询单表
 show databases;
@@ -32,6 +32,7 @@ limit 偏移量,条数  可以用来分页
 
 + `select * from json \G` 在命令行中竖排输出表
 + mysql -u root -p
++ 表 字段Field 记录Record
 
 ```sql
 create table history1 (
@@ -52,9 +53,20 @@ CREATE TABLE json (
   info JSON
 );
 
+CREATE TABLE templateHistory (
+  id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  project VARCHAR(30) NOT NULL,
+  template VARCHAR(30) NOT NULL,
+  time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  json JSON
+);
+
+-- 修改字段类型
+-- alter table 表名 modify 字段名称 数据类型 Null;
+alter table templateHistory modify template varchar(30) null;
 ```
 
-{"title":"标题","mode":"dialog","formType":"form","percent":4,"width":"800px","bindings":[],"buttons":[{"title":"确认","closeAfterApiCalled":true,"visibility":{}}],"environmentArgs":[],"CLASS_NAME":"FormElement","GROUPS":[],"JSON_FILE":"demo"}
+
 
 
 
