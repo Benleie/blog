@@ -1,5 +1,7 @@
 
 ## 公司电脑
++ sequelize ORM工具
++ egg-mysql  ali-rds
 + 
 ```
 npm list @angular/core
