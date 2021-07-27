@@ -42,6 +42,17 @@ git branch -M master
 git push -u origin master
 ```
 - 将HTTP方式改为SSH`git remote set-url origin <url>`
++ `分支推送顺序的写法是<来源地>:<目的地>，所以git pull是<远程分支>:<本地分支>，而git push是<本地分支>:<远程分支>`
+
+
+## workspace
+### checkout
+```bash
+git checkout  ## 后面不加任何参数。表示核查工作区相对于版本库修改过的文件
+```
+件
++ git checkout 后面不加任何参数。表示核查工作区相对于版本库修改过的文
++ `git checkout -- <file>`
 
 ## 使用多个git账号
 + ls -al ~/.ssh  检查本地现有SSH密钥
