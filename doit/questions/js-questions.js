@@ -38,13 +38,41 @@ const shape = {
 console.log(shape.diameter());
 console.log(shape.perimeter());
 
-************************************************************************
+**** 04 ********************************************************************
+log(+true)          // 1
+log('hh' + true)    // hhtrue
+log(!'Lydia')      // false
+
+**** 05 ********************************************************************
+const bird = {
+  size: 'small',
+};
+
+const mouse = {
+  name: 'Mickey',
+  small: true,
+};
+log(mouse[bird.size]) // true
+log(mouse[bird['size']]) // true
+// mouse.bird.size // Cannot read property 'size' of undefined
+
+**** 06 ********************************************************************
+let c = { greeting: 'Hey!' };
+let d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+
+let e = Object.create(c)
+
+log(Object.getPrototypeOf(e) === c)
+log(e.__proto__ === c)      // true
+
+****  ********************************************************************
 
 
-************************************************************************
 
 
-************************************************************************
+****  ********************************************************************
 
 
 

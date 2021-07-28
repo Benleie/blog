@@ -31,6 +31,9 @@
   + 代码的执行分为：语法检查与运行
     + 词法分析与语法分析   AST
     + 预编译 将生成AST复制到当前执行的上下文中 此处发生函数整体提升和变量声明提升
+
++ 继承和原型
+  + ES6中的class关键字只是语法糖，JS依然是基于原型的 (MDN)(https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
     
 ## es6
 + let var
