@@ -2,12 +2,13 @@
 ## 公司电脑
 + sequelize ORM工具
 + egg-mysql  ali-rds
-+ 
++ "editor.mouseWheelZoom": true
 
 ```
 npm list @angular/core
 npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codemirror@1.1.3
 ```
+
 
 ## 07
 + Date()转成`YYYY-MM-DD HH:MM:SS`格式的timestamp
