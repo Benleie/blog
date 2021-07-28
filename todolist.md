@@ -2,8 +2,7 @@
 ## 公司电脑
 + sequelize ORM工具
 + egg-mysql  ali-rds
-+ "editor.mouseWheelZoom": true
-
++ https://github.com/JakHuang/form-generator
 ```
 npm list @angular/core
 npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codemirror@1.1.3
