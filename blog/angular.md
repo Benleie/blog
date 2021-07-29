@@ -2,6 +2,7 @@
 + 自定义dialog，在list中点击引入
 - pipe news.service.ts
 + 关闭husky
++ @viewChild 属性指令
 
 
 ## rxjs
