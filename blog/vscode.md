@@ -6,7 +6,8 @@
 
 
 ## 插件
-- GitLens 查看git提交信息
++ GitLens 查看git提交信息
+	+ file history 功能强大 类似于`git log filename`
 + Vetur vue插件
 + Markdown Preview Enhanced
 + Project Manager 多个项目切换
