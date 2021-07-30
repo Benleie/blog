@@ -98,7 +98,17 @@ git branch -d iss53  删除分支
 To push the current branch and set the remote as upstream, use`git push --set-upstream origin hotfix`
 
 
+## 常用操作
+```bash
+# 将gitignore中设置staged文件
+git rm -r -f --cached .\app\public\templates\*
+git rm -r -f --cached **/node_modules/
+# gitk、gui中文乱码
+git config --global gui.encoding utf-8
+## 查看单个文件的提交历史 ---> gitlens中的file history
+git log --pretty=oneline filename
 
-`git rm -r -f --cached **/node_modules/`
+```
+
 
 commit阅读利器gitk

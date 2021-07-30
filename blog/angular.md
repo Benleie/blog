@@ -34,6 +34,9 @@
 + 模板
 	+ 插值与属性绑定
 	+ 指令
+		+ 结构性指令
+			+ let 模板输入变量
+			
 + 依赖注入 providers选项
 + ng generate
 	+ component
