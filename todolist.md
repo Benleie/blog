@@ -21,6 +21,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ## 07
 + 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
 + http获取本地json,设置筛选框form查找表格
++ angular 弹窗ngif 与vue对比
 
 + [ ] 梳理zhikun工作用到的技术
   + 印象深刻的技术难点
