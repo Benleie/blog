@@ -3,6 +3,7 @@
 + sequelize ORM工具
 + egg-mysql  ali-rds
 + https://github.com/JakHuang/form-generator
++ Primitive
 + chrome://sync-internals/
 + http-client XHR fetch axios
 + mock table data
