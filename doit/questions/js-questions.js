@@ -66,15 +66,37 @@ let e = Object.create(c)
 
 log(Object.getPrototypeOf(e) === c)
 log(e.__proto__ === c)      // true
+// Object.create(null) 创建干净的对象
+
+**** 07 ********************************************************************
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
 
 ****  ********************************************************************
 
 
-
-
+****  ********************************************************************
 ****  ********************************************************************
 
 
 
 */
 
+class Chameleon {
+  static colorChange(newColor) {
+    this.newColor = newColor;
+    return this.newColor;
+  }
+
+  constructor({ newColor = 'green' } = {}) {
+    this.newColor = newColor;
+  }
+}
+
+const freddie = new Chameleon({ newColor: 'purple' });
+console.log(freddie.colorChange('orange'));

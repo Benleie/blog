@@ -44,6 +44,11 @@
 	+ module
 	+ service
 + 组件
+	+ 组件样式
+
+## 使用体验
++ `*ngIf`要大写 @angular/common中的CommonModule
++ `::ng-deep` "刺穿Shadow DOM" view-encapsulation
 
 
 
