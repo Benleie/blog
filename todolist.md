@@ -4,6 +4,15 @@
 + egg-mysql  ali-rds
 + https://github.com/JakHuang/form-generator
 + Primitive
++ chrome://sync-internals/
++ http-client XHR fetch axios
++ mock table data
+	+ id name duration chinese math english memo
+
+
+
+
+
 ```
 npm list @angular/core
 npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codemirror@1.1.3
