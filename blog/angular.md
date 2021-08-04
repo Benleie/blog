@@ -44,11 +44,14 @@
 	+ module
 	+ service
 + 组件
-	+ 组件样式
+	+ 组件样式——类似于Web Components的Shadow DOM技术
+		+ `::ng-deep` view-encapsulation 
+		+ 视图封装模式
+	+ 组件生命周期
 
 ## 使用体验
 + `*ngIf`要大写 @angular/common中的CommonModule
-+ `::ng-deep` "刺穿Shadow DOM" view-encapsulation
+
 
 
 
