@@ -8,7 +8,8 @@
 + http-client XHR fetch axios
 + mock table data
 	+ id name duration chinese math english memo
-
++ angular @input set get
++ 禅道bugs下拉框 带默认选项
 
 
 
