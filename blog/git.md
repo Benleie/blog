@@ -7,6 +7,10 @@ git reset --hard <commit>
 + .git/hooks中有很多钩子，如prepush 可以通过删除package.json中的prepush等来关闭husky
 
 - `credential.helper=store`
+```bash
+# 解决gitk中文乱码
+git config --global gui.encoding utf-8
+```
 
 
 
