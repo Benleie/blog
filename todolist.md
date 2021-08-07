@@ -2,7 +2,6 @@
 ## 公司电脑
 + sequelize ORM工具
 + egg-mysql  ali-rds
-+ https://github.com/JakHuang/form-generator
 + Primitive
 + chrome://sync-internals/
 + http-client XHR fetch axios
@@ -22,6 +21,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ## 08
 + 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
 + http连接json-server获取本地json,设置筛选框form查找表格
+  + 分页
 + angular 弹窗ngif 与vue对比
 + tab切换分析
 
@@ -37,6 +37,10 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 ## 网易云项目
 + [ ] 写首页
 + 梳理各个API对应页面
+
+## 表单设计器
++ https://github.com/JakHuang/form-generator
++ https://github.com/GavinZhuLei/vue-form-making
 
 
 ## Node server
