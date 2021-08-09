@@ -11,6 +11,13 @@
 + angular @input set get
 + 禅道bugs下拉框 带默认选项
 
+## form-designer
++ tags无法及时获取tags-config中的值
++ multicheckbox选中值之后不能反应在json中？
+
++ formDesigner中怎样修改form.template值
++ t-dropdown show-clearable 点击后无数报错
+
 
 
 
