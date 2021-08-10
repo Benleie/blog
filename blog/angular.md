@@ -3,6 +3,7 @@
 - pipe news.service.ts
 + 关闭husky
 + @viewChild 属性指令
++ tInputText 指令
 
 
 ## rxjs
