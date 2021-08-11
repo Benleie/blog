@@ -19,7 +19,7 @@
 	+ 可以只传next `observable.subscribe(x => console.log('Observer got a next value: ' + x));` 
 + operators
 	+ Pipeable Operators `observableInstance.pipe(operator())`
-	
+
 ```js
 modelChanged: Subject<string> = new Subject<string>();
 // rxjs < 6
