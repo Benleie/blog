@@ -13,12 +13,27 @@
 + Observablest
 	+ Creating, Subscribing, Executing, Disposing
 	+ subscribe()
-	+ pipe()
+	+ pipe()   批量处理Operators
 + Observer
 	+ 三个partial callback -- next error complete
 	+ 可以只传next `observable.subscribe(x => console.log('Observer got a next value: ' + x));` 
 + operators
 	+ Pipeable Operators `observableInstance.pipe(operator())`
+	
+```js
+modelChanged: Subject<string> = new Subject<string>();
+// rxjs < 6
+this.modelChanged
+    .debounceTime(300) // wait 300ms after the last event before emitting last event
+    .distinctUntilChanged() // only emit if value is different from previous value
+    .subscribe(model => this.model = model);
+// rxjs >=6
+this.modelChanged
+	.pipe(
+     	debounceTime(300), 
+     	distinctUntilChanged()
+    ).subscribe(model => this.model = model);
+```
 
 ## 可以利用的学习资源
 + [中文开发 Material 2](https://github.com/stbui/angular-material-app)
