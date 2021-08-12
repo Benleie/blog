@@ -10,6 +10,13 @@
 + angular @input set get
 + 禅道bugs下拉框 带默认选项
 
+## form-designer
++ tags无法及时获取tags-config中的值
++ multicheckbox选中值之后不能反应在json中？
+
++ formDesigner中怎样修改form.template值
++ t-dropdown show-clearable 点击后无数报错
+
 
 
 
@@ -21,9 +28,14 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 ## 08
 + 结合vue-elelment-admin，仿写一套ngx-admin的layout布局
-+ http连接json-server获取本地json,设置筛选框form查找表格
-  + 分页
-+ tab切换分析
++ http获取本地json,设置筛选框form查找表格
++ angular 弹窗ngif 与vue对比
++ 一个简单input 怎么那么多触发 常见组件是怎样处理input的防抖节流的
++ angular rxjs 防抖节流怎样使用
+  + 使用next 绑定input的input事件，这种用法没错！错在诡异而奇怪的input组件
++ 通过rebase对commits进行合并
+
+
 
 + 梳理zhikun工作用到的技术
   + 印象深刻的技术难点
