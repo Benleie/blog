@@ -7,7 +7,8 @@
 日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
 + js: js语言基础
 + es6: 学习es6语法及特点
-+ css： 整理html与css
++ css： 整理html与css基础知识
++ html： 总结各个UI库使用经验和常用功能开发心得
 + http：http及server知识
 + db: mysql，mongodb， indexedDb等数据库
 + browser: 前端其他内容
