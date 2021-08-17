@@ -1,5 +1,10 @@
 ## todo
-+ 
++ search-page
++ t-grid
+	+ 记录总条数
++ 待优化
+	+ core.js:11210 WARNING: sanitizing unsafe URL value javascript: (see http://g.co/ng/security#xss)
+	+ WARNING in Circular dependency detected
 
 
 
