@@ -5,10 +5,8 @@
 + Primitive
 + chrome://sync-internals/
 + http-client XHR fetch axios
-+ mock table data
-	+ id name duration chinese math english memo
+
 + angular @input set get
-+ 禅道bugs下拉框 带默认选项
 
 ## form-designer
 + tags无法及时获取tags-config中的值
@@ -34,6 +32,11 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + angular rxjs 防抖节流怎样使用
   + 使用next 绑定input的input事件，这种用法没错！错在诡异而奇怪的input组件
 + 通过rebase对commits进行合并
++ 禅道bugs下拉框 带默认选项
++ 都城送 选两菜面板 是通过什么组件实现的 类似于下拉多选？
++ git pull non-fast-forward 
++ `<ng-content select="[search-header]"></ng-content>`
+
 
 
 
@@ -60,6 +63,12 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ## done
+<<<<<<< HEAD
 + angular 弹窗ngif 与vue对比
+=======
++ 通过rebase对commits进行合并
+>>>>>>> b8d4fec6a47b8b8ae5dc903620ee54854752efd9
 + button -> fetch -> egg.js -> mysql
 + 自己电脑连接公司VPN和gitlab
++ mock data
+	+ table: id name duration chinese math english memo
