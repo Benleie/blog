@@ -36,6 +36,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + 都城送 选两菜面板 是通过什么组件实现的 类似于下拉多选？
 + git pull non-fast-forward 
 + `<ng-content select="[search-header]"></ng-content>`
++ 浏览器 options preflight
 
 
 
