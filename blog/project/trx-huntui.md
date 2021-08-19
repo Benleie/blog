@@ -1,13 +1,18 @@
 # todo
 ## common Components
 + search-page
++ t-dialog
+	+ .ui-dialog-content height
+	+ appendto
 + t-grid
 	+ 记录总条数
+
 ## form-designer
 ## angular
 + 待优化
 	+ core.js:11210 WARNING: sanitizing unsafe URL value javascript: (see http://g.co/ng/security#xss)
 	+ WARNING in Circular dependency detected
+	+ wait until bundle finished:
 
 
 

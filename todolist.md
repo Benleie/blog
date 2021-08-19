@@ -37,7 +37,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + git pull non-fast-forward 
 + `<ng-content select="[search-header]"></ng-content>`
 + 浏览器 options preflight
-
++ DOMContentLoaded load
 
 
 
