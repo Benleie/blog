@@ -5,22 +5,23 @@
 
 ## commit提交规范
 日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
-+ js: js语言基础
-+ es6: 学习es6语法及特点
++ angular
++ browser: 前端其他内容
 + css： 整理html与css基础知识
++ db: mysql，mongodb， indexedDb等数据库
++ doc: 整理博客
++ es6: 学习es6语法及特点
++ git
 + html： 总结各个UI库使用经验和常用功能开发心得
 + http：http及server知识
-+ db: mysql，mongodb， indexedDb等数据库
-+ browser: 前端其他内容
-+ vue
-+ react
-+ angular
++ js: js语言基础
 + node：整理webpack等node工具
-+ git
-+ doc: 整理博客
++ react
 + review：整理面试题
 + todo: 整理待办事项
 + tool: 开发工具使用
++ vue
+
 
 ## 刷题列表
 + [JS每日一题](https://github.com/lydiahallie/javascript-questions)
