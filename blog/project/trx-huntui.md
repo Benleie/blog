@@ -1,11 +1,15 @@
 # todo
 ## common Components
++ 组件理解
+	+ 哪些组件需要appendto body
 + search-page
 + t-dialog
 	+ .ui-dialog-content height
 	+ appendto
 + t-grid
 	+ 记录总条数
++ httpClient
+	+ subscribe 类型定义 `onRequest: (params?: any) => Observable<TableData>`
 
 ## form-designer
 ## angular
