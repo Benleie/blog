@@ -20,6 +20,7 @@
 + doc: 整理博客
 + review：整理面试题
 + todo: 整理待办事项
++ tool: 开发工具使用
 
 ## 刷题列表
 + [JS每日一题](https://github.com/lydiahallie/javascript-questions)
