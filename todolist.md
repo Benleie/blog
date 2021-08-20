@@ -38,6 +38,7 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 + `<ng-content select="[search-header]"></ng-content>`
 + 浏览器 options preflight
 + DOMContentLoaded load
++ 正则表达式 类似于vscode搜索文件的一个匹配
 
 
 
