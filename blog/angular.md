@@ -10,7 +10,7 @@
 ## rxjs
 + angular的httpClient中的每个请求方法都会构建一个Observable,被订阅时，执行请求
 	+ 类似于rxjs中的from
-+ Observablest
++ Observable
 	+ Creating, Subscribing, Executing, Disposing
 	+ subscribe()
 	+ pipe()   批量处理Operators

@@ -1,4 +1,5 @@
 ## 快捷键
++ 可以在keyboards shortcuts里面去调整
 - 全部折叠 ctrl + k, ctrl + 0
 - 折叠当前代码段 ctrl + shift + [
 
