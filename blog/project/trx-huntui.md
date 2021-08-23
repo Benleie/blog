@@ -22,6 +22,25 @@
 		+ grid DomSanitizer
 	+ WARNING in Circular dependency detected
 	+ wait until bundle finished:
++ form
+	+ 
+	```js
+	this.form = this.formBuilder.group({
+      taskName: ['', [Validators.required]],
+      taskDesc: [''],
+      ipClues: ['', [this.ipValidator]],
+      domainClues: [''],
+      endTime: [undefined],
+      dataSourceType: [[]]  // 该数据初识时应为[]
+    });
+	```
+
+## node && server
++ 
+```bash
+ng build
+node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build
+```
 
 
 
