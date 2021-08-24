@@ -63,7 +63,7 @@ this.modelChanged
 	+ service
 + 组件
 	+ 组件样式——类似于Web Components的Shadow DOM技术
-		+ `::ng-deep` view-encapsulation 
+		+ `:host ::ng-deep` view-encapsulation 
 		+ 视图封装模式
 	+ 组件生命周期
 

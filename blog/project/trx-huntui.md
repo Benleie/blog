@@ -16,6 +16,9 @@
 	+ subscribe 类型定义 `onRequest: (params?: any) => Observable<TableData>`
 
 ## form-designer
++ grid 数据刷新存在bug
+
+
 ## angular
 + 待优化
 	+ core.js:11210 WARNING: sanitizing unsafe URL value javascript: (see http://g.co/ng/security#xss)
@@ -51,6 +54,9 @@ node --max_old_space_size=4096 ./node_modules/@angular/cli/bin/ng build
 	+ 记录总条数 tableData total
 
 ## form-designer
++ 修改form-designer表格可选
+
+
 ## angular
 + process.argv 启动Node.js进程时传入的命令行参数 
 	+ 第一个参数是process.execPath
