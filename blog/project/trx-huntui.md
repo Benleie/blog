@@ -9,7 +9,7 @@
 + dropdown
 	+ multiSelect 第一次无法选中分组目录  _this.value.push
 + t-grid
-	+ 怎样处理表头field
+	+ 怎样处理表头field format
 + form
 	+ setValue和直接赋值有何区别
 + httpClient
@@ -17,6 +17,7 @@
 
 ## form-designer
 + grid 数据刷新存在bug
++ 有的组件引入t-form-parse,不使用@ViewChild引入#parse指令?
 
 
 ## angular
