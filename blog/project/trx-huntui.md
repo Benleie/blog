@@ -28,19 +28,29 @@
 		+ grid DomSanitizer
 	+ WARNING in Circular dependency detected
 	+ wait until bundle finished:
-+ `<ng-content select="[search-header]">`
++ `<ng-content select="[search-header]"></ng-content>`
 + form
-	+ 
-	```js
-	this.form = this.formBuilder.group({
-      taskName: ['', [Validators.required]],
-      taskDesc: [''],
-      ipClues: ['', [this.ipValidator]],
-      domainClues: [''],
-      endTime: [undefined],
-      dataSourceType: [[]]  // 该数据初识时应为[]
-    });
-	```
+
+### 代码疑问 
+```js
+
+this.form = this.formBuilder.group({
+  taskName: ['', [Validators.required]],
+  taskDesc: [''],
+  ipClues: ['', [this.ipValidator]],
+  domainClues: [''],
+  endTime: [undefined],
+  dataSourceType: [[]]  // 该数据初识时应为[]
+});
+
+// ioc.component
+onSizeChange(event) {
+	// percentPageSize已经更新，通过属性绑定的方式传给percentGrid对应子组件
+	// 但是在update$.next之后子组件rows属性才更新
+	this.percentGrid.rows = this.percentPageSize
+	this.percentGrid.update$.next(true);
+}
+```
 
 ## node && server
 + 
