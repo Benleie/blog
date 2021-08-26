@@ -28,6 +28,7 @@
 		+ grid DomSanitizer
 	+ WARNING in Circular dependency detected
 	+ wait until bundle finished:
++ `<ng-content select="[search-header]">`
 + form
 	+ 
 	```js
