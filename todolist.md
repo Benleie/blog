@@ -66,11 +66,8 @@ npm ERR! peer dep missing: @angular/core@^2.1.0 || ^4.0.0, required by ng2-codem
 
 
 ## done
-<<<<<<< HEAD
 + angular 弹窗ngif 与vue对比
-=======
 + 通过rebase对commits进行合并
->>>>>>> b8d4fec6a47b8b8ae5dc903620ee54854752efd9
 + button -> fetch -> egg.js -> mysql
 + 自己电脑连接公司VPN和gitlab
 + mock data
