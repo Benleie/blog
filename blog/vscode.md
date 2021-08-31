@@ -2,6 +2,7 @@
 + 可以在keyboards shortcuts里面去调整
 - 全部折叠 ctrl + k, ctrl + 0
 - 折叠当前代码段 ctrl + shift + [
++ 通过方向键，添加多个光标 CTRL(SHIFT) + ALT + UpArrow    
 
 
 
@@ -16,7 +17,6 @@
 
 CTRL + M        	跳过括号             
 ALT + 1     		聚焦于第一个编辑器组  
-CTRL(SHIFT) + ALT + UpArrow    在上面添加光标 
 
 ## 功能
 - snippets 生成代码模板
