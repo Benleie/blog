@@ -4,5 +4,5 @@
 + 了解WebWorker
     +  Service Worker
     + postMessage
-+ PWA
++ PWA Progressive Web Apps
     + 怎样判断一个网页是PWA，用了indexedDb？

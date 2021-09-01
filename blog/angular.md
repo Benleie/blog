@@ -102,3 +102,5 @@ this.modelChanged
 	+ overload 与 override
 + 基础类型
 	+ any void never
+	+ 类型注解Type annotations：指定变量的类型 
+	+ 类型推断 类型断言
