@@ -6,6 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    .flex {
+      display: flex;
+    }
+    .demo1 {
+      border: 1px solid #bed4df;
+      box-sizing: border-box;  
+    }
+    .item {
+      background-color: #e1f3ff;
+      height: 100%;
+    }
     .container {
       display: flex;
       width: 190px;
@@ -54,6 +65,13 @@
       <div class="one-tag">
         <span>mail</span>
         <span>500个</span>
+      </div>
+    </section>
+    <section class="container">
+      <div class="flex demo1" style="width: 150px;background-color: orange;">
+        <div class="item">1</div>
+        <div class="item">1</div>
+        <div class="item">1</div>
       </div>
     </section>
   </div>
