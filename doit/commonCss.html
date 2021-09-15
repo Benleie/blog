@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container {
+      display: flex;
+      width: 190px;
+      flex-wrap: wrap;
+      background-color: peachpuff;
+      padding: 20px 10px;
+    }
+    .one-tag {
+      margin: 0 9px 6px 0;
+      height: 22px;
+      background-color: #ffffff;
+	    /* border-radius: 10px; */
+	    border:  1px solid #bed4df;
+      font-size: 13px;
+      transform: rotate(0deg);
+    }
+    .one-tag > span {
+      display: inline-block;
+    }
+    .one-tag > span:first-child {
+      min-width: 34px;
+      /* height: 22px; */
+      font-family: MicrosoftYaHei;
+      background-color: #e1f3ff;
+      /* border-top-right-radius: 2px; */
+      /* border-bottom-right-radius: 2px; */
+      border-right: solid 1px #bed4df;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <section class="container">
+      <div class="one-tag">
+        <span>mail</span>
+        <span>500个</span>
+      </div>
+      <div class="one-tag">
+        <span>mail</span>
+        <span>500个</span>
+      </div>
+      <div class="one-tag">
+        <span>mail</span>
+        <span>500个</span>
+      </div>
+      <div class="one-tag">
+        <span>mail</span>
+        <span>500个</span>
+      </div>
+    </section>
+  </div>
+  
+</body>
+</html>

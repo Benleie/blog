@@ -63,7 +63,7 @@ this.modelChanged
 	+ service
 + 组件
 	+ 组件样式——类似于Web Components的Shadow DOM技术
-		+ `::ng-deep` view-encapsulation 
+		+ `:host ::ng-deep` view-encapsulation 
 		+ 视图封装模式
 	+ 组件生命周期
 
@@ -102,3 +102,5 @@ this.modelChanged
 	+ overload 与 override
 + 基础类型
 	+ any void never
+	+ 类型注解Type annotations：指定变量的类型 
+	+ 类型推断 类型断言
