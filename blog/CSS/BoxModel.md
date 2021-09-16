@@ -9,6 +9,10 @@
 + line-height 
   + 继承属性，继承body(1.5)，或者html(1.15),无设置时为normal(1.2-1.3)
   + On block-level elements, it specifies the minimum height of line boxes within the element. On non-replaced inline elements, it specifies the height that is used to calculate line box height.对于替换内联元素来说，line-height对它没有影响。
++ opacity
+  + 默认为1.0，不透明 非继承元素
+  + opacity会把一个元素（包括它的内容和子元素）作为一个整体处理，哪怕这个元素和它的子元素有不同的opacity属性值。
+  + 当属性值不为1时，会把元素放置在一个新的**层叠上下文stacking context**中
 
 
 
