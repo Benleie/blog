@@ -6,7 +6,6 @@
 ## commit提交规范
 日志信息以`<type>`开头，用于说明commit的类别，type使用下面标识。
 + angular
-+ body: 健身
 + browser: 前端其他内容
 + css： 整理html与css基础知识
 + db: mysql，mongodb， indexedDb等数据库
@@ -18,6 +17,7 @@
 + js: js语言基础
 + node：整理webpack等node工具
 + react
++ question: 刷题
 + review：整理面试题
 + todo: 整理待办事项
 + tool: 开发工具使用
