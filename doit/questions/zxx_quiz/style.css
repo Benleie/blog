@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.quiz-box {
+  background-color: #fff;
+  width: 500px;
+}
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: ; */
+  border: 1px solid #666;
+  padding: 20px;
+}
+dt {
+  color: #999;
+}
+dt:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+dd {
+  width: 350px;
+  /* flex: 1; */
+  text-align: right;
+}
