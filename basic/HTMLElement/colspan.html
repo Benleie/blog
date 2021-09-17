@@ -17,6 +17,17 @@
       margin-top: 100px;
       padding: 20px 0;
     }
+    .adjustable {
+      height: 200px;
+      margin-top: 30px;
+    }
+    @media (max-height: 800px) {
+      .adjustable {
+        height: 100px;
+        margin-top: 0;
+        background-color: beige;
+      }
+    }
     table {
       background-color: #fff;
     }
@@ -26,6 +37,8 @@
   </style>
 </head>
 <body>
+  <div class="container adjustable"></div>
+
   <div class="container">
     <table width="1000px" >
       <tr>
