@@ -10,7 +10,10 @@ body {
   /* width: 500px; */
   min-width: 400px;
   max-width: 800px;
+  margin-bottom: 20px;
 }
+
+
 dl {
   display: flex;
   flex-wrap: wrap;

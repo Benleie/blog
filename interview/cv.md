@@ -9,6 +9,13 @@
 + 熟练使用lodash/underscore, moment.js, axios, redux与immutable.js等常用工具库的常用功能
   + 但不要试图去读源码 太浪费精力
 
+### 练完这些就去面试，大概会是十月中旬
+  + 张鑫旭css世界(结合css quiz和十个专题课程)
+  + zxx js_quiz和js_question,结合能搜到的面试题复习js八股文
+  + 探究element与antd常用组件用到的知识点(vue与react组件传值,css动画,dom)
+  + leetcode整理到200
+  + 三大框架的面试题 (对比确认界面 用三个框架整理一遍)
+
 ### 后端方面想法
 + mysql 原生node去连接mysql 结合CS-Notes中的`sql练习`去学习
 + egg/express/koa 文档级理解
