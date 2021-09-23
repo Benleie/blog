@@ -79,6 +79,7 @@ Hi Benleie! You've successfully authenticated, but GitHub does not provide shell
 
 
 ## AUTOCRLF
++ git config core.autocrlf false
 + warning: LF will be replaced by CRLF in XXXXX.
 The file will have its original line endings in your working directory.
 
