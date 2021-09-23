@@ -56,6 +56,7 @@ this.modelChanged
 			+ let 模板输入变量
 			
 + 依赖注入 providers选项
+	+ constructor注入 class解耦
 + ng generate
 	+ component
 	+ directive
@@ -65,7 +66,11 @@ this.modelChanged
 	+ 组件样式——类似于Web Components的Shadow DOM技术
 		+ `:host ::ng-deep` view-encapsulation 
 		+ 视图封装模式
+	+ 内容投影 
+		+ `ng-content`元素 类似于vue的插槽 slot
 	+ 组件生命周期
+		+ `ngAfterContentInit()` 当Angular把外部内容投影进组件视图或指令所在的视图之后调用
+		+ `ngAfterViewInit()` 初识化视图之后调用
 
 ## 使用体验
 + `*ngIf`要大写 @angular/common中的CommonModule
@@ -104,3 +109,4 @@ this.modelChanged
 	+ any void never
 	+ 类型注解Type annotations：指定变量的类型 
 	+ 类型推断 类型断言
+	+ ? ! 空与非空
