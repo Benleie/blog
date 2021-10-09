@@ -66,6 +66,10 @@
   log(str3.toString() === str1)
   log(str3 == str1)
   ```
+  + null undefined 
+    + 与`"", 0, NaN`这三个falsy value有区别
+    + `?.` optional chaining operator
+    + `??` nullish coalescing operator
 
 ## 引用类型
 ```js
