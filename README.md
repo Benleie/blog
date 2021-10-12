@@ -21,7 +21,7 @@
 + review：整理面试题
 + todo: 整理待办事项
 + tool: 开发工具使用
-+ ts: learn typeccomscript
++ ts: learn typescript
 + vue
 
 
