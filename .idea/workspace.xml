@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46e2bdc6-a196-4cfc-958c-acdf3ed3edad" name="Changes" comment="" />
+    <list default="true" id="46e2bdc6-a196-4cfc-958c-acdf3ed3edad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/vscode.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog/vscode.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -38,6 +43,7 @@
       <workItem from="1634178956681" duration="796000" />
       <workItem from="1634179774823" duration="165000" />
       <workItem from="1634179955866" duration="873000" />
+      <workItem from="1634180850290" duration="1538000" />
     </task>
     <servers />
   </component>
