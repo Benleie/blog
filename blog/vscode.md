@@ -26,3 +26,7 @@ ALT + 1     		聚焦于第一个编辑器组
 ### 想要的功能
 - 复制代码自动对齐
 - css未使用则变灰
+
+# webstorm
++ 激活 http://webstorm.vip/ddd/
+  + 安装插件的方式 将zip文件拖动进去
