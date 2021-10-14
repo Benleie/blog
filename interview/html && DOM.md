@@ -7,3 +7,8 @@
   + property `div.id = xxx`
 + attribute和property之间的数据绑定是单向的，attribute->property；
 + https://javascript.info/dom-attributes-and-properties
+
+# HTML Element
++ input 
+  + type=search 自带close-icon
+  + type=button 没有默认事件的button
