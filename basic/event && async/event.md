@@ -6,5 +6,7 @@
 
 
 ## 事件循环 Event loop
-关键词：单线程 非堵塞 主线程 执行栈 任务队列staskqueue 异步任务 事件的回调函数 setTimeout requestAnimationFrame nextTick MutationObserver
+关键词：单线程 非堵塞 主线程 执行栈 任务队列staskqueue 异步任务 事件的回调函数 
+  + setTimeout requestAnimationFrame MutationObserver
+  + nextTick React-Scheduler
 + 事件循环： 主线程从任务队列中读取事件，这个过程持续进行。
