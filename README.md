@@ -26,6 +26,7 @@
 
 
 ## 刷题列表
++ [前端语音社群总结的题目](https://github.com/febobo/web-interview)
 + [JS每日一题](https://github.com/lydiahallie/javascript-questions)
 + [木易杨前端进阶](https://github.com/Advanced-Frontend/Daily-Interview-Question)
 + [前端算法](https://github.com/sisterAn/JavaScript-Algorithms)

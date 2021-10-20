@@ -30,5 +30,7 @@ ALT + 1     		聚焦于第一个编辑器组
 # webstorm
 + 激活 http://webstorm.vip/ddd/
   + 安装插件的方式 将zip文件拖动进去
+## shortcut
+  + recent locations  CTRL + SHIFT + E
 ## 插件
 + GitToolBox:  inline blame like gitlens 
