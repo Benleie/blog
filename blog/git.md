@@ -15,6 +15,7 @@ git config --global gui.encoding utf-8
 #
 
 ## submodule
++ git checkout master --recurse-submodules https://git-scm.com/book/en/v2/Git-Tools-Submodules
 1.0.1
 1.0.2
 
