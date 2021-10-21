@@ -15,6 +15,7 @@ git config --global gui.encoding utf-8
 #
 
 ## submodule
+1.0.1
 
 ### git clone指定分支
 git clone -b refactor https://github.com/maroslaw/rainyday.js.git stop
