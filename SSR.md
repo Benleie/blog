@@ -31,6 +31,9 @@
 + /etc/init.d/shadowsocks restart    突然链接不到外网了
 + timeout
 
+## 问题日志
++ 全会期间无法连接；之后tcping无法获取端口，但是`/etc/init.d/shadowsocks status`显示running
+
 ## 其他
 + 原版 ss，不用酸酸乳，不混淆。防火墙只指定自家 IP 访问，阻断 ICMP 请求。
 + yum -y install gcc gcc-c++ autoconf pcre pcre-devel make automake

@@ -1,5 +1,5 @@
-
-108.61.157.138 
+45.77.223.153  +6EwV{2#A3N=2wv+
+108.61.157.138  q@X568_eafdMBcZw
 vps  流量bandwidth 每月限制
 
 vim /etc/ssh/sshd_config 
@@ -16,7 +16,7 @@ service sshd restart
 + firewall-cmd --zone=public --list-ports  查看开放端口
 + firewall-cmd --add-port=35082/tcp --add-port=35082/udp --permanent
 + firewall-cmd --reload
-
+firewall-cmd --add-port=7272/tcp --add-port=7272/udp --permanent
 ## centos
 + free -h 查看内存使用情况
 + top 
