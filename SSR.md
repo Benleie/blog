@@ -33,6 +33,8 @@
 
 ## 问题日志
 + 全会期间无法连接；之后tcping无法获取端口，但是`/etc/init.d/shadowsocks status`显示running
+	+ https://wmovc.com/758/ 换成ssr试试
+	+ 尝试使用加速插件 https://github.com/shadowsocks/shadowsocks-windows/issues/2228#issuecomment-465047836
 
 ## 其他
 + 原版 ss，不用酸酸乳，不混淆。防火墙只指定自家 IP 访问，阻断 ICMP 请求。
