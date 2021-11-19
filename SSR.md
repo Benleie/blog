@@ -1,17 +1,14 @@
-
-+ ss和ssr的区别在于ssr支持协议转换、协议混淆、多重代理
-
-+ https://www.elifulkerson.com/projects/tcping.php
-
-
-
-## v2ray
-+ [233boy的v2ray脚本](https://github.com/233boy/v2ray/tree/master)  
+## vultr && VPS
+45.77.223.153  +6EwV{2#A3N=2wv+
+108.61.157.138  q@X568_eafdMBcZw
+vps  流量bandwidth 每月限制
 
 ## ss
 + `wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev.sh && bash shadowsocks-libev.sh`
 + `wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh`
 + `wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh && bash serverspeeder-all.sh`
+
++ ss和ssr的区别在于ssr支持协议转换、协议混淆、多重代理
 
 + (Centos8使用BBR无需升级内核) 
 
@@ -58,6 +55,9 @@ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
 
 https://github.com/shadowsocks/shadowsocks
 
+## 相关工具
++ [233boy的v2ray脚本](https://github.com/233boy/v2ray/tree/master)  
++ https://www.elifulkerson.com/projects/tcping.php
 
 ## 参考文章
 + https://lccurious.github.io/2018/03/03/vlutr-ssr/

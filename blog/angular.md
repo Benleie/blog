@@ -74,9 +74,10 @@ this.modelChanged
 
 ## 使用体验
 + `*ngIf`要大写 @angular/common中的CommonModule
++ `Validators.pattern(/^[0-9]*$/)`
 
 
-
+"build": "node --max_old_space_size=5048 ./node_modules/@angular/cli/bin/ng build --prod --aot --base-href /hunt/ --deploy-url=/hunt/"
 
 ## ngx-admin
 + 项目运行成功 依然报的两个错
