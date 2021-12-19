@@ -5,7 +5,8 @@
 + 通过方向键，添加多个光标 CTRL(SHIFT) + ALT + UpArrow    
 
 
-
+## 配置
++ Format On Type 输入一行后自动格式化
 
 ## 插件
 + GitLens 查看git提交信息
