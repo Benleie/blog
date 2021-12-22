@@ -1,5 +1,5 @@
 ## vultr && VPS
-45.77.223.153  +6EwV{2#A3N=2wv+
+vultr awecg2 Upper@233211
 108.61.157.138  q@X568_eafdMBcZw
 vps  流量bandwidth 每月限制
 
@@ -12,7 +12,7 @@ vps  流量bandwidth 每月限制
 
 + (Centos8使用BBR无需升级内核) 
 
-
+`bash shadowsocks-libev.sh`
 启动：/etc/init.d/shadowsocks start
 停止：/etc/init.d/shadowsocks stop
 重启：/etc/init.d/shadowsocks restart
@@ -61,3 +61,6 @@ https://github.com/shadowsocks/shadowsocks
 
 ## 参考文章
 + https://lccurious.github.io/2018/03/03/vlutr-ssr/
+
+## v2ray 
++ https://github.com/233boy/v2ray/wiki/

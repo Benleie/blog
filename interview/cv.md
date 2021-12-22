@@ -61,7 +61,7 @@
 # 项目经历
 ## 表单设计器
 + 2021.07-2021.11
-+ 参照https://jakhuang.github.io/form-generator和form.making
++ 参照https://jakhuang.github.io/form-generator和form.making,https://designable-antd.formilyjs.org/
 + 结合公司的项目需求，t-form-parse的形式引入 json是怎样被应用进组件的
 + 添加自定义组件；配置数据源
 
