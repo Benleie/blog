@@ -32,15 +32,21 @@
 
 # 简历
 ## 个人优势
-+ 熟悉HTML5/CSS3/ES6/DOM操作/HTTP请求等前端基础
-+ 熟悉Vue，熟悉Vue-Router、Vuex的常用场景，经常使用ElementUI进行开发； 了解React
-+ 熟悉GIT常用命令及工作流程，可以在Linux下部署前端项目
-+ 了解后端开发，使用Express和MongoDB搭建过个人博客
+熟悉HTML5/CSS3/ES6/DOM操作/HTTP请求等前端基础
 
+熟练使用Vue，了解Vue-Router等工具
+
+会用React+TypeScript进行开发，了解过Ant Design部分组件的实现方式
+
+熟悉Git工作流程；了解Node.js后端开发
 
 ## 工作经历
 + 表单设计器
   + node后端 egg-mysql Navicat
+
+### zhikun
+
+在较为复杂的组件的开发中，通过使用加深理解了对Vue双向绑定与响应式原理、组件化、路由及数据管理
 
 ## 项目经历
 ### 表单设计器
@@ -49,9 +55,16 @@
 + 结合公司的项目需求，t-form-parse的形式引入 json是怎样被应用进组件的
 + 添加自定义组件；配置数据源
 
-### 《你的座位》小程序开发
-+ 2019.03-2019.12
-+ Uni-app
+### 小班长智慧工地
+参与重构，对PC端项目使用pxtorem进行页面适配
+负责经营管理等需求的开发和维护 （Vue + iView + 微信小程序）
+数据大屏展示（Echarts）
+
+
+## 提到的技术点
++ 页面适配
+  + px2rem postcss,inline-style,lib-flexible
+  + viewport unit
 
 
 
@@ -59,8 +72,9 @@
 ## 不错的模板参考
 + http://leeluolee.github.io/resume/ 网易云郑海波
 + [敖天羽](https://hacknical.com/csvwolf/resume?locale=zh)
++ https://refined-x.com/about/
 
-+ ## 书写建议
+## 书写建议
 + 公司全称简称都写上会比较好
 
 
