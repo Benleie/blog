@@ -21,7 +21,6 @@
 + 404 
 + 408 Request Time-out
 
-+ HTTPS = HTTP + SSL协议 443
 
 ## HTTP缓存
 + expires HTTP 1.0
