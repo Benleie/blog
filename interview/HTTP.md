@@ -26,6 +26,8 @@
 + expires HTTP 1.0
 + 缓存机制 304与强缓存
 
+## http2 与 http1.1 区别
+
 ## 跨域解决方式
 cors
 
@@ -33,7 +35,8 @@ cors
 
 
 ## 前端安全
-+ 跨站脚本攻击 XSS(Cross Site Scripting)
+### 什么是 CSRF 攻击，怎么预防；
+### 跨站脚本攻击 XSS(Cross Site Scripting)
 + 在输入中混入脚本
 + 危害：盗取cookie
 + 对抗思路

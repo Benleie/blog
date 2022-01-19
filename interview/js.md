@@ -5,20 +5,22 @@
   + 如果一个函数调用了外部变量,那么就会形成闭包
   + 通过return这个函数 或者，添加到全局变量上，可以让外部访问这个闭包
   + 作用： 隐藏一些变量：在能被间接访问的情况下，防止被随意修改
-
++ js 有哪些基本类型，说说 typeof 与 instanceof；
 + call与apply
   + 都是改变this的指向  `Array.prototype.slice.call(arguments).sort();`
     + 普通函数 this指向函数运行时所在的对象 this可变
     + 箭头函数的this就是定义时上层作用域中的this 固定的
   + call方法接受的是若干个参数列表，而apply接收的是一个包含多个参数的数组。
-
-+ 异步 Promise
+### ES5实现继承的方法;
+### 异步 Promise
++ promise原生方法
   + Promise.all() 接收一组异步任务，然后并行地执行异步任务
     + 如果有一个rejected,则用catch捕获；其他任务仍会执行，但执行结果会被抛弃
     + 如果均为fulfilled，则将各Promise结果组成数组，按照all()接受的顺序（而非执行顺序），返回到then
   + Promise.race()
     + 如果有一个rejected,则用catch捕获；其他任务仍会执行，但执行结果会被抛弃
     + 可用于对超时异步的处理
+  + 了解 allSettled 方法么，怎么实现？
 
 + BFC
 
