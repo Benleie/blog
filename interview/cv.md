@@ -11,7 +11,8 @@
 + element、antd源码级理解 [阅读源码建议](https://www.zhihu.com/question/350289336/answer/873350617)
 + 熟练使用lodash/underscore, moment.js, axios, redux与immutable.js等常用工具库的常用功能
   + 但不要试图去读源码 太浪费精力
-
+## 招聘信息
+一直比较好奇各个城市的前端岗位需求。昨晚在boss直聘上做了个测试。搜索各个城市薪资在30k-50k，公司规模100-499人的岗位。结果显示，北京6=上海6>杭州3=深圳3>广州0.5。
 ## 练完这些就去面试，大概会是十月中旬
   + 张鑫旭css世界(结合css quiz和十个专题课程)
   + zxx js_quiz和js_question,结合能搜到的面试题复习js八股文

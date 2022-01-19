@@ -15,6 +15,7 @@
 + html： 总结各个UI库使用经验和常用功能开发心得
 + http：http及server知识
 + js: js语言基础
++ market：行情了解
 + node：整理webpack等node工具
 + react
 + question: 刷题
