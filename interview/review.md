@@ -15,21 +15,31 @@
 
 ## 药师帮 Web组10人的规模
 + 离职原因是什么？
-+ 怎样实现深拷贝？JSON.Parse()会有什么问题
-+ 类数组转数组有什么办法 call,apply怎么用
-+ for...in 遍历能不能遍历到原型链上
 + ES5的继承方式？ prototype怎么用
 + HTTP缓存 说说强缓存与协商缓存？日常的js、css是怎么缓存的
 + 说说事件循环
 + 用过ES6的哪些新语法？箭头函数的特点是什么
 + vue-router hash模式原理
-+ 为啥么vue2不支持IE8以下
++ 为啥么vue2不支持IE8以下 
 + vue数据绑定是怎么做的
 + 用过vite吗
 + 个人的职业规划是啥？之前公司做过技术分享吗
 + 简历个人优势可以再丰富一点
+### 怎样实现深拷贝？JSON.Parse()会有什么问题
+### call,apply,bind有何区别
+### 类数组转数组有什么办法 call,apply怎么用
+  + Array.form() 拓展表达式
+  + `[].slice.call(arguments)  Array.prototype.slice.call(arguments_)`
 
-## 兴业数金 
+### for...in 遍历能不能遍历到原型链上
++ for...in 会遍历所有可枚举属性，包括继承来的属性
++ hasOwnProperty() 配合for..in来过滤
++ Object.getOwnPropertyNames() 获取自身所有属性，包括non-enumerable properties
++ Object.keys() 自身可枚举
++ Reflect.ownKeys() 遍历自身所有
+
+
+## 兴业数金
 + 数组的方法；数组去重的方法；
 + 原型链；js继承的方式
 + 判断类型的方式；防抖函数如何写；
