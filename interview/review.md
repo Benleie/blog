@@ -1,4 +1,36 @@
 # 2022.01
+## 企业微信
+### 笔试题
+1. 数组中出现次数最多的对象
+2. 数组对象位置的等概率调换
+
+## 中电金信 汇丰银行
++ 英语自我介绍
++ tcp三次握手
++ url到页面渲染发生了什么
++ angular数据绑定
++ angular依赖注入
++ 首屏加载经验？
++ 前端优化做过哪些
++ Git工作流程
++ jenkins
+
+## 小鹏汇天
++ 介绍下HTTP
++ HTTP1.0与http2.0
++ https加密 对称还是非对称
++ vue nextTick用法与原理
++ 常用哪些ES6特性
++ 职业规划？周末怎么安排?怎么走上前端路的？
+### http缓存 强缓存和弱缓存的区别 Etag和last-modified的区别
++ 强缓存
+  + 200 from disk cache
+  + cache-control: public, max-age=14400
+  + expires etag last-modified
++ 协商缓存
+  + 304
+  + Cache-Control: max-age=0, private, must-revalidate
+  + ETag
 ## 字节跳动 国际化电商一面
 + 介绍一下简历的第一个项目经历
 + tcp和udp区别
@@ -33,10 +65,12 @@
 
 ### for...in 遍历能不能遍历到原型链上
 + for...in 会遍历所有可枚举属性，包括继承来的属性
-+ hasOwnProperty() 配合for..in来过滤
-+ Object.getOwnPropertyNames() 获取自身所有属性，包括non-enumerable properties
+  + hasOwnProperty() 配合for..in来过滤
++ Object.getOwnPropertyNames() 获取自身所有属性，包括non-enumerable properties,但不包括symbol
+  + Object.getOwnPropertySymbols
 + Object.keys() 自身可枚举
 + Reflect.ownKeys() 遍历自身所有
+
 
 
 ## 兴业数金
