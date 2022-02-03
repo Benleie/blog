@@ -12,7 +12,8 @@ git reset --hard <commit>
 git config --global gui.encoding utf-8
 ```
 
-#
+## Git工作流程
+### Git flow
 
 ## submodule
 + git checkout master --recurse-submodules https://git-scm.com/book/en/v2/Git-Tools-Submodules
