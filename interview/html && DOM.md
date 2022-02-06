@@ -20,15 +20,14 @@
 + 主流浏览器每6周一次更新，所以ES6(2015)之后用年份命名。
 
 ## 前端优化方案
-+ 
-+ 路由懒加载 webpack的代码分离与懒加载 code-splitting lazy-loading
-+ tree shaking 移除未引用代码，减少bundle体积大小
 + 前端预加载方案
-	+ dns-prefetch 提前完成DNS解析
-	+ preconnect 提前建立TCP连接和TSL握手
+    + dns-prefetch 提前完成DNS解析
+    + preconnect 提前建立TCP连接和TSL握手
 + gzip压缩 	http请求优化方式 Content-Encoding: gzip
 + icon-font
 + webpack相关优化
-	1. 使用uglifyjs-webpack-plugin插件代替webpack自带UglifyJsPlugin插件来压缩JS文件；生产环境关闭源码映射，一方面能减少代码包的大小，另一方面也有利于系统代码安全；清除打印日志和debugger信息；配置SplitChunks 抽取公有代码，提升你的应用的性能
-	2. 使用mini-xss-extract-plugin提取CSS 到单独的文件, 并使用optimize-css-assets-webpack-plugin来压缩CSS文件 。
+    1. 使用uglifyjs-webpack-plugin插件代替webpack自带UglifyJsPlugin插件来压缩JS文件；生产环境关闭源码映射，一方面能减少代码包的大小，另一方面也有利于系统代码安全；清除打印日志和debugger信息；配置SplitChunks 抽取公有代码，提升你的应用的性能
+    2. 使用mini-xss-extract-plugin提取CSS 到单独的文件, 并使用optimize-css-assets-webpack-plugin来压缩CSS文件 。
+    3. tree shaking 移除未引用代码，减少bundle体积大小
+    4. 路由懒加载 webpack的代码分离与懒加载 code-splitting lazy-loading
 

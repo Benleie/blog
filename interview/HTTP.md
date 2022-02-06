@@ -1,4 +1,6 @@
 # 常考问题
+## http1.1的特点
+chrome对同一个host最多只能同时建立6个tcp连接，每个tcp上的http请求不能并行，只能按顺序依次发送
 
 ### GET与POST区别
 + get的参数长度有限制 浏览器限制多为2kb
@@ -25,8 +27,6 @@
 ## HTTP缓存
 + expires HTTP 1.0
 + 缓存机制 304与强缓存
-
-## http2 与 http1.1 区别
 
 ## 跨域解决方式
 cors
