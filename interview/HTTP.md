@@ -1,6 +1,17 @@
 # 常考问题
-## http1.1的特点
-chrome对同一个host最多只能同时建立6个tcp连接，每个tcp上的http请求不能并行，只能按顺序依次发送
+## http1.1的特点 1997.01
++ 持久连接（persistent connection），即TCP连接默认不关闭
++ 客户端在最后一个请求时，发送Connection: close，明确要求服务器关闭TCP连接
++ chrome对同一个host最多只能同时建立6个tcp连接，每个tcp上的http请求不能并行，只能按顺序依次发送
++ 管道机制（pipelining）浏览器默认关闭
++ 分块传输编码 Content-Length 字段 Transfer-Encoding: chunked
++ 缺点： "队头堵塞"（Head-of-line blocking）
+
+## HTTP/2 2015
++ 二进制 请求头也可以是二进制
++ 多工 Multiplexing
++ 数据流 带编号用来标识；RST_STREAM帧用来取消某次请求
++ 服务器推送（server push）
 
 ### GET与POST区别
 + get的参数长度有限制 浏览器限制多为2kb
