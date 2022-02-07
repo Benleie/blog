@@ -7,11 +7,21 @@
 + 分块传输编码 Content-Length 字段 Transfer-Encoding: chunked
 + 缺点： "队头堵塞"（Head-of-line blocking）
 
-## HTTP/2 2015
+## HTTP/2 2015提出，2018开始流行
++ 基于https协议
 + 二进制 请求头也可以是二进制
-+ 多工 Multiplexing
-+ 数据流 带编号用来标识；RST_STREAM帧用来取消某次请求
++ 请求头部压缩  Header Compression
++ 多路复用 Multiplexing
+  + 数据流 带编号用来标识；RST_STREAM帧用来取消某次请求
+  + 同一个域名只是用一个TCP连接
 + 服务器推送（server push）
++ 缺陷
+  + 存在TCP队头堵塞 head-of-line blocking
+  + TCP和TLS 握手时延，TCL三次握手和TLS四次握手，共有3-RTT的时延；round-trip-time
+
+## HTTP/3 2018
++ Quic QuickUDP Internet Connections
+
 
 ### GET与POST区别
 + get的参数长度有限制 浏览器限制多为2kb
@@ -39,8 +49,8 @@
 + expires HTTP 1.0
 + 缓存机制 304与强缓存
 
-## 跨域解决方式
-cors
+## cors
++ prelight 预检请求 options
 
 ## 登录过程与方式
 
