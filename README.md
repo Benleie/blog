@@ -33,3 +33,4 @@
 + [前端算法](https://github.com/sisterAn/JavaScript-Algorithms)
 + [400多道前端题目](https://github.com/sudheerj/javascript-interview-questions)
 + https://github.com/lgwebdream/FE-Interview
++ [TS练习](https://github.com/typescript-exercises/typescript-exercises)

@@ -1,4 +1,4 @@
-# 常考问题
+# http简介
 ## http1.1的特点 1997.01
 + 持久连接（persistent connection），即TCP连接默认不关闭
 + 客户端在最后一个请求时，发送Connection: close，明确要求服务器关闭TCP连接
@@ -23,8 +23,11 @@
 + Quic QuickUDP Internet Connections
 
 
+# 常考问题
+
 ### GET与POST区别
-+ get的参数长度有限制 浏览器限制多为2kb
++ 请求参数
+  + GET的请求参数拼接在url后面(ASCII编码)，长度浏览器限制多为2kb;POST将参数放在请求体里面 
 + 都是应用层协议HTTP的请求方式，基于同一个应用层协议TCP
 
 ## 状态码
