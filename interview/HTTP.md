@@ -27,8 +27,12 @@
 
 ### GET与POST区别
 + 请求参数
-  + GET的请求参数拼接在url后面(ASCII编码)，长度浏览器限制多为2kb;POST将参数放在请求体里面 
-+ 都是应用层协议HTTP的请求方式，基于同一个应用层协议TCP
+  + GET的请求参数拼接在url后面(ASCII编码)，长度浏览器限制多为2kb;
+  + POST将参数放在请求体里面（常见的Content-Type编码方式有三种：x-www-form-urlencoded，form-data，json）
++ 语义
+  + GET从服务器获取某个URL资源，其行为可以看作是一个读操作，对同一个URL进行多次GET并不会对服务器产生什么影响。
+  + POST方法通常是对某个URL进行添加、修改，例如一个表单提交，通常会往服务器插入一条记录。多次POST请求可能导致服务器的数据库中添加了多条记录。
++ 处理方式 POST先发请求头，100？？
 
 ## 状态码
 + 100 Continue 有的浏览器，会将POST的header和body分成两个TCP数据包来发送 服务端返回100再发送body
@@ -57,6 +61,16 @@
 
 ## 登录过程与方式
 
+## 实时通信
+### eventsource SSE(server-sent-event)
++ `Accept: text/event-stream`
++ 适用于服务器单方面推送，比如社交媒体的信息
++ 与http2的服务器推送有何区别？
+
+### WebSocket
++ 协议标识符是ws（如果加密，则为wss）
++ 101 Switching Protocols `Connection: Upgrade`
++ websocketd 代理服务器，不限语言
 
 ## 前端安全
 ### 什么是 CSRF 攻击，怎么预防；
