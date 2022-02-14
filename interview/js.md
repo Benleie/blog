@@ -83,6 +83,8 @@ stack.push(4)
 console.log(arr3)         [[1,2,3,4], [1,2,3]]
 ```
 
+## event
+### 事件委托
 
 
 
