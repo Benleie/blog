@@ -5,8 +5,8 @@
 + 说说 BFC；
 + 
 ## 动画
-+ transform 变形
-+ transition
++ transition 可动画属性列表
+  + transition-property, transition-duration, transition-delay, transition-timing-function
 + animation @keyframes
 + 为什么说用 css 实现动画比 js 动画性能好；
 + css 动画 animation 各个时间值含义；
