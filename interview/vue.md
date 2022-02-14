@@ -1,6 +1,8 @@
 ## 常见面试题
 + computed与watch，methods区别
-+ 
++ v-for key应该怎样设置
+  + 虚拟DOM的Diff算法
+  + 更新已渲染节点时，更准确地找到vNode节点，减少DOM操作
 
 ## vue-router
 + 路由守卫
