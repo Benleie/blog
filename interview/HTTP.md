@@ -53,8 +53,10 @@
 
 
 ## HTTP缓存
-+ expires HTTP 1.0
 + 缓存机制 304与强缓存
++ expires ==> cache-control: max-age 
++ if-Modified-Since/Last-Modified
++ if-None-Match/Etag
 
 ## cors
 + prelight 预检请求 options

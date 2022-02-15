@@ -1,3 +1,14 @@
+## 面试题
++ TS中用哪个关键字定义类型
+    + type interface
++ TS的基本类型
+  + 布尔值，数字，字符串， symbol
+  + null, undefined, object
+  + void, any, never
+  + 数组， 元组，枚举
+
+
+
 ## typescript知识补充
 + 装饰器
 	+ 类装饰器
@@ -14,7 +25,6 @@
 	+ extends super
 	+ overload 与 override
 + 基础类型
-	+ any void never
 	+ 类型注解Type annotations：指定变量的类型 
 	+ 类型推断 类型断言
 	+ ? ! 空与非空
