@@ -1,5 +1,22 @@
 # 2022.02
 
+## 同城艺龙
++ css 清除浮动
++ 数组去重
++ 深拷贝
++ 箭头函数与普通函数区别
++ http缓存
++ vue双向绑定
++ react diff算法
++ react setState() 同步移步
++ promise all与race的区别
++ 自定义promise 实现红绿灯
+
+## 明通科技
++ 浏览器显示12px字体 transform
++ js判断变量类型 typeof, instanceof, Object.prototype.toString.call
++ js继承
+
 ## 德赛西威 
 + 面试偏后端，websocket
 + TS中用哪个关键字定义类型
