@@ -12,6 +12,12 @@
 + css 动画 animation 各个时间值含义；
 + css 如何实现让一个元素旋转并横向移动，如果只用一个 css 属性；
 
+## 伪类
++ 状态 :link, :visited, :hover, :active, :focus
++ 元素结构
+  + first-child, last-child, nth-child, nth-last-child, only-child
+  + first-of-type, last-of-type, nth-of-type, nth-last-of-type, only-type
++ 表单 checked, valid, invalid等
 ## 布局
 + 移动端响应式布局怎么实现的；
 + 说一说 flex 布局，有了解 Grid 么；
