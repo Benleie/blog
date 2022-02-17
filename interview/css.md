@@ -18,10 +18,11 @@
   + first-child, last-child, nth-child, nth-last-child, only-child
   + first-of-type, last-of-type, nth-of-type, nth-last-of-type, only-type
 + 表单 checked, valid, invalid等
+
 ## 布局
 + 移动端响应式布局怎么实现的；
 + 说一说 flex 布局，有了解 Grid 么；
-+ css flex 的各个属性值；
++ css flex的各个属性值；
 + 能够对行内或者块级元素在垂直和水平方向完成居中
 
 ## 渲染
