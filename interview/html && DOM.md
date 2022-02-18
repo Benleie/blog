@@ -31,3 +31,6 @@
     3. tree shaking 移除未引用代码，减少bundle体积大小
     4. 路由懒加载 webpack的代码分离与懒加载 code-splitting lazy-loading
 
+## 判断元素是否在可视区域
++ 
++ 
