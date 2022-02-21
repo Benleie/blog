@@ -34,13 +34,12 @@
 
 # 简历
 ## 个人优势
-熟悉HTML5/CSS3/ES6/DOM操作/HTTP请求等前端基础
+熟悉HTML/CSS/HTTP请求等前端基础
+熟悉ES6，常用TypeScript做开发
+熟练使用Vue，熟悉Vue-Router等工具，以及Element等组件库
+了解Webpack/Rollup/Vite等构建工具特点，做过相关配置
+了解Git工作流程和前端部署；了解后端开发，用过Egg.js+MySQL
 
-熟练使用Vue，了解Vue-Router等工具
-
-会用React+TypeScript进行开发，了解过Ant Design部分组件的实现方式
-
-熟悉Git工作流程；了解Node.js后端开发
 
 ## 工作经历
 + 表单设计器
@@ -51,7 +50,23 @@
 在较为复杂的组件的开发中，通过使用加深理解了对Vue双向绑定与响应式原理、组件化、路由及数据管理
 
 ## 项目经历
-### 表单设计器
+### 开源组件库参与
+学习Ant Design组件写法，熟悉常用组件的特点
+参与官方github Issues的讨论和解决
+DatePicker, Modal等组件
+
+### 威胁狩猎产品
+威胁狩猎应用，一款基于安全数据的后台管理项目
+技术栈：Angular + TypeScript + RxJS
+常规项目开发
+参与图谱绘制：绘制关系图(D3.js)
+参与表单生成器开发：添加组件，并负责其后台(Egg.js + MySQL)
+
+#### 表单生成器
+结合公司业务需求，开发出了表单生成器，作为前端内部工具，提高开发效率。
+● 项目介绍：拖拽式配置表单，集成输入框、下拉菜单、滑块等表单常用项，通过数据源来配置接口
+● 完成工作：添加Tag、时间选择器等组件；修改已有表单项的样式等（Angular+Scss）
+#### 细节补充
 + 2021.07-2021.11
 + 参照https://jakhuang.github.io/form-generator和form.making,https://designable-antd.formilyjs.org/
 + 结合公司的项目需求，t-form-parse的形式引入 json是怎样被应用进组件的
@@ -60,13 +75,24 @@
 ### 小班长智慧工地
 参与重构，对PC端项目使用pxtorem进行页面适配
 负责经营管理等需求的开发和维护 （Vue + iView + 微信小程序）
-数据大屏展示（Echarts） 折线图、柱状图、饼图、散点图、关系图、热力图
-
-
-## 提到的技术点
+数据大屏展示（Echarts） 
+#### 细节补充
+折线图、柱状图、饼图、散点图、关系图、热力图
 + 页面适配
   + px2rem postcss,inline-style,lib-flexible
   + viewport unit
+  
+### 民生服务项目
+H5项目
+1. 使用Vant进行移动端开发，提供给公众号使用
+2. 三个前端，三个后端进行协作开发
+3. 完成登录注册、共享商城、消息日志、房屋管理等模块开发
+  
+### 你的座位
+在校期间和学院同学合作开发的项目。
+● 使用uni-app开发，提供武汉大学图书馆座位的抢座功能。
+● 负责预约功能及邀请码等功能模块的开发（Vue2 + Axios + Flex+ Less）
+● 支持微信授权登录
 
 
 
