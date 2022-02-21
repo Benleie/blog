@@ -1,7 +1,7 @@
 
 webpack网课
 [千峰教育webpack5](https://www.bilibili.com/video/BV1YU4y1g745)
-
++ npx webpack可以优先调用当前项目中的命令
 ## 基础
 ### 1 了解webpack
 + 打包 构建

@@ -31,6 +31,27 @@
     3. tree shaking 移除未引用代码，减少bundle体积大小
     4. 路由懒加载 webpack的代码分离与懒加载 code-splitting lazy-loading
 
+## vite /vit/
++ 尤雨溪
+  + vite前身是vue-dev-server, 从一开始就是在服务器端对原生ESM请求进行按需编译。开发Vite的初衷是让Vue用户以后可以少等点HMR的时间
+  + webpack core是一个纯打包工具（对标 Rollup）
+  + Vite其实是一个更上层的工具链方案，对标的是 （webpack + 针对 web 的常用配置 + webpack-dev-server）
+  + Vite在开发时模拟Rollup的插件机制，并且兼容大部分Rollup插件
++ 官方文档介绍的特性
+  + 极速的服务启动: 使用原生ESM文件，无需打包!
+  + 轻量快速的热更新/热重载 HMR
+  + 共享rollup插件
++ 开发环境用esbuild,生产环境用rollup
+
+### rollup
++ 基于ES2015 Module规范，总能打出更小，更快的包
++ tree-shaking 自动移除未使用的代码, 输出更小的文件
++ 也有热更新方案
+
+### esbuild
++ 构建超快
++ 支持tree-shaking
+
 ## 判断元素是否在可视区域
 + 
 + 
