@@ -1,6 +1,16 @@
 
 # 2022.02
-## Vensi
+## 乐药集团
++ 垂直居中的方案
++ 三列布局的方案
++ 基本类型 typeof undefined null  instanceof检查的依据是什么
++ 遍历属性的方法
++ 箭头函数的this指向
++ const let 块级作用域
++ 事件循环 浏览器和Node的区别
+
+## 不重要的公司
+### Vensi
 + 和后端怎样交流 接口怎么定
 + 和UI怎样交流
 + GET与POST
