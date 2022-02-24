@@ -2,6 +2,7 @@
 # 2022.02
 ## 乐药集团
 + 垂直居中的方案
++ 盒子模型
 + 三列布局的方案
 + 基本类型 typeof undefined null  instanceof检查的依据是什么
 + 遍历属性的方法
@@ -17,6 +18,17 @@
 + VUE组件通信
 + webpack打包流程
 + webpack打包结果的形式
+
+### 明通科技
++ 浏览器显示12px字体 transform
++ js判断变量类型 typeof, instanceof, Object.prototype.toString.call
++ js继承
+
+### 德赛西威
++ 面试偏后端，websocket
++ TS中用哪个关键字定义类型
+  + type interface
++ TS的基本类型
 
 ## 百辰源
 + 笔试题 宏任务与微任务的执行顺序
@@ -79,17 +91,6 @@
 + react setState() 同步移步
 + promise all与race的区别
 + 自定义promise 实现红绿灯
-
-## 明通科技
-+ 浏览器显示12px字体 transform
-+ js判断变量类型 typeof, instanceof, Object.prototype.toString.call
-+ js继承
-
-## 德赛西威 
-+ 面试偏后端，websocket
-+ TS中用哪个关键字定义类型
-  + type interface
-+ TS的基本类型
 
 ## 璟云
 + js哪些操作会造成内存泄漏
