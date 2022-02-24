@@ -62,24 +62,8 @@ console.log()
 console.log()*/
 
 
-var name = 'chris'
-var staffA = {
-    name: 'hunter',
-    getName: function() { console.log(this.name) },
-    getName2: () => { console.log(this) },
-    getShowName: function () {
-        return function() { console.log(this.name)
-        }
-    }
-}
-staffA.getName()   //hunter
-// staffA.getName.call(name)   //hunter
-staffA.getName2()   //hunter
-// staffA.getShowName()()
-const sayName = new staffA.getName()
-// sayName()
-const sayShowName = new staffA.getShowName()
-sayShowName()
+
+
 
 /* setTimeout Promise
 
