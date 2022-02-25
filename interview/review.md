@@ -6,7 +6,7 @@
 + 不同标签页之间怎样通信
   + 监听localStorage 非当前页面修改storage会触发storage事件
   + Broadcast Channel
-  + 需要轮询，获取更新; visibilitychange事件
+  + 需要轮询，获取更新; visibilitychange事件, window.onblur
     + webWorker sharedWorker postMessage
     + indexDb
     + cookie
