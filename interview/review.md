@@ -2,6 +2,17 @@
 # 2022.02
 ## OD二面 交叉面
 + 304 协商缓存 Etag和last-modified的缺点
++ localStorage
++ 不同标签页之间怎样通信
+  + 监听localStorage 非当前页面修改storage会触发storage事件
+  + Broadcast Channel
+  + 需要轮询，获取更新; visibilitychange事件
+    + webWorker sharedWorker postMessage
+    + indexDb
+    + cookie
+  + websocket/SSE
++ CORS实现跨域
++ XSS
 + vue等框架给前端开发带来的好处
 + diff算法 时间复杂度是多少
 + 首屏加载优化方案
