@@ -34,12 +34,15 @@
   + POST方法通常是对某个URL进行添加、修改，例如一个表单提交，通常会往服务器插入一条记录。多次POST请求可能导致服务器的数据库中添加了多条记录。
 + 处理方式 POST先发请求头，100？？
 
-## 状态码
+## 方法与状态码
++ HEAD 不返回响应体
++ OPTIONS 检测服务器支持哪些HTTP方法,常用在CORS里面
 + 100 Continue 有的浏览器，会将POST的header和body分成两个TCP数据包来发送 服务端返回100再发送body
 + 101 Switching Protocols 服务器更换为更高级的协议  如upgrade: websocket
 + 202 Accepted 已经接受请求，但未处理完成
 + 204 No Content  
   + 服务器成功处理，但未返回内容。 
+  + 经常出现在预检请求OPTIONS的响应中
   + content-length=0
 + 301 Moved Permanently
 + 302 临时重定向 
@@ -50,16 +53,19 @@
 + 403 Forbidden	服务器理解请求客户端的请求，但是拒绝执行此请求
 + 404 
 + 408 Request Time-out
-
++ 500 服务器异常
 
 ## HTTP缓存
 + 缓存机制 304与强缓存
-+ expires ==> cache-control: max-age 
++ 没过期=命中强缓存=走200 expires ==> cache-control: max-age等 
 + if-Modified-Since/Last-Modified
 + if-None-Match/Etag
++ 对HTML文件缓存策略的设置
 
 ## cors
-+ prelight 预检请求 options
++ 简单请求 Origin Access-Control-Allow-Origin
++ 非简单请求会发送 prelight 预检请求 options
++ sec-fetch-mode: cors
 
 ## 登录过程与方式
 

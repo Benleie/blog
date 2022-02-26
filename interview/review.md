@@ -1,5 +1,11 @@
 
 # 2022.02
+## 艾客
++ Vite编译为什么那么快
++ 手写一个链式调用
++ 
+
+
 ## OD二面 交叉面
 + 304 协商缓存 Etag和last-modified的缺点
 + localStorage
@@ -39,6 +45,9 @@
 + vue复用的方式
 + axios 请求重试
 + RxJS与promise
+
+### 清能互联 react
++ DatePicker
 
 
 ### Vensi
