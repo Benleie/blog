@@ -57,10 +57,16 @@
 
 ## HTTP缓存
 + 缓存机制 304与强缓存
-+ 没过期=命中强缓存=走200 expires ==> cache-control: max-age等 
-+ if-Modified-Since/Last-Modified
++ 没过期=命中强缓存=走200 expires ==> cache-control: max-age等
+  + 为优化性能，减少请求，应尽可能命中强缓存
++ if-Modified-Since/Last-Modified  局限：同一秒更新；修改了，但实际内容没变
 + if-None-Match/Etag
-+ 对HTML文件缓存策略的设置
++ cache-control
+  + 需要重新验证时： no-cache或者`max-age=0, must-revalidate`
+  + must-revalidate 一旦资源过期（比如已经超过max-age），在成功向原始服务器验证之前，缓存不能用该资源响应后续请求。
++ 对HTML文件缓存策略的设置 cache-control不缓存，从而主动感知静态资源的变化
+  + max-age=0
+  + max-age=0, private, must-revalidate(segmentfault)
 
 ## cors
 + 简单请求 Origin Access-Control-Allow-Origin
