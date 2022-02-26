@@ -3,7 +3,7 @@
 ## 艾客
 + Vite编译为什么那么快
 + 手写一个链式调用
-+ 
++ vue-router hash模式与history模式 hashchange
 
 
 ## OD二面 交叉面
@@ -23,6 +23,7 @@
 + diff算法 时间复杂度是多少
 + 首屏加载优化方案
 + webpack loader与plugin的区别
++ package.lock.json作用 要不要上传
 + 路由懒加载 除了脚手架，自己可以配置吗
 
 

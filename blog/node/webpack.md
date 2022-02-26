@@ -1,5 +1,7 @@
 # 官方文档
-## 模块热替换 HMR  
+## 模块热替换 HMR
+## 常见配置
+
 
 # webpack网课
 [千峰教育webpack5](https://www.bilibili.com/video/BV1YU4y1g745)
